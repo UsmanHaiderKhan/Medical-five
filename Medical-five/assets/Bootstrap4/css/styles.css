@@ -1,0 +1,4175 @@
+﻿/*====================== Font Families =======================*/
+
+@font-face {
+    font-family: 'Lora-Regular';
+    src: url('../../Fonts/lora/Lora-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../../Fonts/montserrat/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lora-Bold';
+    src: url('../../Fonts/lora/Lora-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('../../Fonts/open-sense/OpenSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../../Fonts/montserrat/Montserrat-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../../Fonts/open-sense/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url('../../Fonts/ralway/Raleway-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-ExtraBold';
+    src: url('../../Fonts/open-sense/OpenSans-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../../Fonts/open-sense/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'arial';
+    src: url('../../Fonts/arial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-Black';
+    src: url('../../Fonts/ralway/Raleway-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url('../../Fonts/open-sense/OpenSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('../../Fonts/ralway/Raleway-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-ExtraBold';
+    src: url('../../Fonts/ralway/Raleway-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-Light';
+    src: url('../../Fonts/ralway/Raleway-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url('../../Fonts/ralway/Raleway-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('../../Fonts/ralway/Raleway-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-SemiBold';
+    src: url('../../Fonts/ralway/Raleway-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url('../../Fonts/roboto/Roboto-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../../Fonts/roboto/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../../Fonts/roboto/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../../Fonts/roboto/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../../Fonts/roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Black';
+    src: url('../../Fonts/source/SourceSansPro-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Bold';
+    src: url('../../Fonts/source/SourceSansPro-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Light';
+    src: url('../../Fonts/source/SourceSansPro-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Regular';
+    src: url('../../Fonts/source/SourceSansPro-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Semibold';
+    src: url('../../Fonts/source/SourceSansPro-Semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FontsFree-Net-Proxima-Nova-Bold (1)';
+    src: url('../../Fonts/FontsFree-Net-Proxima-Nova-Bold (1).otf') format('opentype');
+}
+/*==================== Font Families Area =====================*/
+/*
+    font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+*/
+
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+}
+
+/*==================== Home Styling =====================*/
+.header-bg {
+    width: 100%;
+    height: auto;
+    padding: 25px 100px 7px 100px;
+    background-color: #006a92;
+}
+
+.fresh-text {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto-Bold';
+}
+
+.welcome-text {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto-Light';
+}
+
+.email-text {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto-Regular';
+}
+
+.mobile-text {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto-Medium';
+}
+
+.nav-trans {
+    transition: all 0.5s ease !important;
+    -webkit-transition: all 0.5s ease !important;
+    -moz-transition: all 0.5s ease;
+}
+
+.pt-45 {
+    padding-top: 45px;
+}
+
+.bg-color {
+    background-color: #ffffff;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+#nav-icons [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 14px;
+    font-style: normal;
+    margin-left: 0;
+    color: #006a92;
+    border: 2px solid #006a92;
+    padding: 8px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.navbar {
+    padding: 0.5rem 5rem;
+}
+
+.margin-5 {
+    margin: 5px;
+}
+
+#HOME {
+    background-image: url('../../Images/main-banner.png');
+    background-size: cover;
+    position: relative;
+    padding: 80px 100px 80px 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+.navbar {
+    padding: 1.5rem 5rem;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+
+.p-padding {
+    padding: 0 2rem;
+}
+
+.sleep {
+    padding: 0.5rem 5rem;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav-item {
+    position: relative;
+    padding: 10px;
+}
+
+.link-blue {
+    text-decoration: none;
+    color: #5e8aa5;
+}
+
+    .link-blue:hover {
+        text-decoration: none;
+        color: #5e8aa5;
+    }
+/*.fixed-top.scrolled {
+    background-color: #060606;
+}
+
+.navbar-nav.scrolled {
+    margin-top: 0;
+    overflow: hidden;
+}*/
+
+.navbar-nav .nav-link {
+    color: #4a7a97;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Bold';
+}
+
+/*#HOME .navbar-light .navbar-nav .nav-link.scrolled {
+        background-color: transparent;
+        text-decoration: none;
+        font-family: 'Font Bureau - HeronSansCond Regular';
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 17px;
+        transition: font-size 400ms linear;
+    }*/
+
+
+.start {
+    text-align: start;
+}
+
+.main-heading {
+    font-size: 100px;
+    color: #f7941d;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: 'SourceSansPro-Light';
+}
+
+.look-text {
+    font-size: 100px;
+    color: #f7941d;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: 'SourceSansPro-Bold';
+}
+
+.sub-desc {
+    color: #1e1e1e;
+    font-size: 21px;
+    font-family: 'OpenSans-Regular';
+}
+
+.help-text {
+    color: #006a92;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'SourceSansPro-Bold';
+}
+
+.active {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #f7941d !important;
+    font-family: 'OpenSans-ExtraBold' !important;
+}
+
+.btn-contact {
+    width: 218px;
+    height: 74px;
+    color: #1e1e1e;
+    font-size: 21px;
+    line-height: 60px;
+    text-transform: uppercase;
+    background-color: #f7941d;
+    font-family: 'OpenSans-Bold';
+}
+
+    .btn-contact:hover {
+        color: #1e1e1e;
+    }
+/*=================== WElCome Section Styling ===================*/
+#about {
+    background-color: #f2f6f7;
+    padding: 100px 0 80px 0;
+}
+
+.exellence-text {
+    color: #2a2a2a;
+    font-size: 23px;
+    font-family: 'OpenSans-SemiBold';
+}
+
+.color-one {
+    font-size: 47px;
+    color: #006a92;
+    font-family: 'OpenSans-Bold';
+}
+
+.color-two {
+    font-size: 47px;
+    color: #f7941d;
+    font-family: 'OpenSans-Bold';
+}
+
+.about-text {
+    font-size: 18px;
+    color: #3b3c3c;
+    font-family: 'OpenSans-Regular';
+}
+
+.option-text {
+    font-size: 22px;
+    color: #006a92;
+    font-family: 'OpenSans-SemiBold';
+}
+
+.no-color {
+    color: #f7941d;
+    font-size: 23px;
+    font-family: 'OpenSans-Bold';
+}
+
+.book-visit {
+    text-decoration: none;
+    color: #f7941d;
+    font-size: 20px;
+    font-family: 'OpenSans-Bold';
+}
+
+    .book-visit:hover {
+        text-decoration: none;
+        color: #f7941d;
+        font-size: 20px;
+        font-family: 'OpenSans-Bold';
+    }
+
+.service-text {
+    color: #111111;
+    font-size: 47px;
+    text-transform: capitalize;
+    font-family: 'OpenSans-Bold';
+}
+
+.lip-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 48px 35px;
+    background-image: url('../../Images/bgs/lip-bg.png');
+}
+
+.skin-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../Images/bgs/skin-bg.png');
+}
+
+.breast-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 35px 0 35px;
+    background-image: url('../../Images/bgs/breast-bg.png');
+}
+
+.face-bg {
+    background-size: cover;
+    padding: 78px 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../Images/bgs/plastic-surgery.png');
+}
+
+.sur-text {
+    color: #363839;
+    font-size: 31px;
+    font-family: 'Lora-Bold';
+}
+
+.sur-desc {
+    color: #2e2e2e;
+    font-size: 19px;
+    font-family: 'OpenSans-SemiBold';
+}
+
+.facial-text {
+    color: #363839;
+    font-size: 30px;
+    font-family: 'Lora-Bold';
+}
+
+.facial-desc {
+    color: #2e2e2e;
+    font-size: 18px;
+    font-family: 'OpenSans-SemiBold';
+}
+
+.btn-know {
+    width: 175px;
+    height: 45px;
+    color: #006a92;
+    font-size: 17px;
+    background: transparent;
+    border: 2px solid #006a92;
+    border-radius: 23px;
+    font-family: 'OpenSans-Bold';
+}
+
+
+.below-tag {
+    line-height: 1em;
+    text-align: center;
+    position: relative;
+}
+
+    .below-tag:after {
+        margin-top: 21px;
+        content: '';
+        position: absolute;
+        display: block;
+        width: 13%;
+        text-align: center;
+        border: 3px solid #13667b;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        left: 44%;
+    }
+/*=================== Customer Section Styling ===================*/
+.advantage-text {
+    color: #5ca0b9;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Bold';
+}
+
+.customer-text {
+    color: #006a92;
+    font-size: 41px;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Bold';
+}
+
+.below-customer {
+    line-height: 1em;
+    text-align: center;
+    position: relative;
+}
+
+    .below-customer:after {
+        margin-top: 16px;
+        content: '';
+        position: absolute;
+        display: block;
+        width: 13%;
+        text-align: center;
+        border: 3px solid #f7941d;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        left: 44%;
+    }
+
+.service-heading {
+    font-size: 20px;
+    color: #117499;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Bold';
+}
+
+.service-desc {
+    color: #3086a7;
+    font-size: 17px;
+    font-family: 'OpenSans-SemiBold';
+}
+/*=================== Contact Info Styling ===================*/
+#contact-info {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+    background-image: url('../../Images/contact-banner.png');
+}
+
+.border-info {
+    width: 100%;
+    height: auto;
+    border: 7px solid rgba(255,255,255,0.16);
+}
+
+
+.dis-text {
+    color: #fff;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: 'FontsFree-Net-Proxima-Nova-Bold (1)';
+}
+
+.bg-white-color {
+    background-color: #fff;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    padding: 11px;
+    margin-bottom: -30px;
+    margin-left: 45%;
+}
+/*=================== Belo Banner Margins ===================*/
+#after-gallery {
+    padding: 90px 0px;
+    background-color: #e3eef3;
+}
+
+.after-gallery-text {
+    color: #2b83a4;
+    font-size: 41px;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Bold';
+}
+
+.work-text {
+    color: #2b83a4;
+    font-size: 18px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Bold';
+}
+
+.gallery-desc {
+    color: #2b83a4;
+    font-size: 24px;
+    font-family: 'OpenSans-SemiBold';
+}
+
+.gallery-text-desc {
+    color: #4592af;
+    font-size: 17px;
+    font-family: 'OpenSans-Regular';
+}
+
+.btn-view-gallery {
+    width: 176px;
+    height: 52px;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 37px;
+    background-color: #f7941d;
+    font-family: 'OpenSans-Bold';
+}
+
+    .btn-view-gallery:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+
+.below-After {
+    line-height: 1em;
+    position: relative;
+}
+
+    .below-After:after {
+        margin-top: 16px;
+        content: '';
+        position: absolute;
+        display: block;
+        width: 22%;
+        text-align: center;
+        border: 3px solid #f7941d;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        left: 2%;
+    }
+
+#gallery-pic {
+    padding: 78px 0px;
+    background-color: #ecf5f8;
+}
+
+.g-text {
+    font-size: 72px;
+    color: #006a92;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Bold';
+}
+
+
+/*=================== Belo Banner Margins ===================*/
+
+.choose-text {
+    font-size: 12px;
+    color: #006a92;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Bold';
+}
+
+#appointment [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    margin-left: 0px;
+    font-weight: bolder;
+}
+
+.appoint-text {
+    font-size: 48px;
+    color: #006a92;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Bold';
+}
+
+#label {
+    font-size: 48px;
+    color: #fff;
+    font-family: 'OpenSans-Bold';
+}
+
+.appoint-color {
+    width: 100%;
+    height: auto;
+    padding: 40px 50px 10px 50px;
+    background-color: #006a92;
+}
+
+.avail-text {
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Bold';
+}
+
+.avail-appoint {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #5ca0b9;
+    border-bottom: 1px solid #5ca0b9;
+    padding: 48px 40px;
+    background-color: #006a92;
+}
+
+.s-text {
+    font-size: 18px;
+    color: #f7941d;
+    text-transform: uppercase;
+    font-family: 'OpenSans-SemiBold';
+}
+
+.date-text {
+    font-size: 21px;
+    color: #cfe3ea;
+    text-transform: capitalize;
+    font-family: 'OpenSans-Bold';
+}
+
+.space-text {
+    font-size: 24px;
+    color: #f7941d;
+    text-transform: capitalize;
+    font-family: 'OpenSans-Bold';
+}
+
+.btn-appointment {
+    width: 280px;
+    height: 78px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 62px;
+    background-color: #f7941d;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Bold';
+}
+
+    .btn-appointment:hover {
+        color: #fff;
+    }
+/*=================== Belo Banner Margins ===================*/
+#team {
+    width: 100%;
+    height: auto;
+    padding: 90px 0;
+    background-color: #ecf5f8;
+}
+
+.doc-text {
+    font-size: 59px;
+    color: #006a92;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Bold';
+}
+
+.pro-text {
+    font-size: 18px;
+    color: #006a92;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Bold';
+}
+
+.below-doc {
+    line-height: 1em;
+    text-align: center;
+    position: relative;
+}
+
+    .below-doc:after {
+        content: '';
+        margin-top: 16px;
+        position: absolute;
+        display: block;
+        width: 15%;
+        text-align: center;
+        border: 3px solid #f7941d;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        left: 43%;
+    }
+
+.card {
+    border-radius: 0px;
+}
+
+.card-img-top {
+    border-radius: 0px;
+}
+
+.card-body {
+    width: 100%;
+    height: auto;
+    padding: .5rem;
+    background-color: #006a92;
+}
+
+.card-title {
+    color: #fff;
+    font-size: 26px;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: 'OpenSans-Bold';
+}
+
+.card-text {
+    font-size: 18px;
+    text-align: left;
+    color: #cfe3ea;
+    text-transform: capitalize;
+    font-family: 'OpenSans-SemiBold';
+}
+
+.card-footer {
+    background-color: #ffffff;
+    padding: 1.25rem 0.5rem;
+}
+
+.no-text {
+    font-size: 13px;
+    text-align: left;
+    color: #000000;
+    font-family: 'OpenSans-SemiBold';
+}
+
+.color-black {
+    color: #000000;
+}
+
+#team [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 11px;
+    font-style: normal;
+    margin-left: 0;
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+#team .flaticon-old-handphone:before {
+    border: none;
+}
+
+#team .slick-prev:before, .slick-next:before {
+    margin-left: 0px;
+    font-family: 'slick';
+    font-size: 24px;
+    line-height: 1;
+    opacity: .75;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#team .slick-slide {
+    margin: 10px;
+}
+/*=================== Belo Banner Margins ===================*/
+.Rectangle_5 {
+    background-color: rgb(247, 148, 29);
+    height: 5px;
+}
+
+.slick-next:before {
+    font-family: "Font Awesome 5 Free" !important;
+    content: "\f054";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.slick-prev:before {
+    font-family: "Font Awesome 5 Free" !important;
+    content: "\f053";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+::placeholder {
+    font-size: 18px !important;
+    color: #bbbbbb !important;
+    font-family: 'Raleway-Medium' !important;
+}
+
+.slick-next {
+    width: 35px;
+    height: 59px;
+    border-bottom: 1px solid #a1a1a1;
+    border-right: 1px solid #a1a1a1;
+    border-top: 1px solid #a1a1a1;
+}
+
+.slick-prev {
+    width: 35px;
+    height: 59px;
+    border-bottom: 1px solid #a1a1a1;
+    border-left: 1px solid #a1a1a1;
+    border-top: 1px solid #a1a1a1;
+}
+
+.link-color {
+    text-decoration: none;
+    color: #000000;
+}
+
+    .link-color:hover {
+        text-decoration: none;
+        color: #000000;
+    }
+/*=================== Contact Section Styling ===================*/
+#contact {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 50px 0;
+    background-image: url('../../Images/contact-info.png');
+}
+
+.info-text {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Lora-Bold';
+}
+
+.contact-text {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Lora-Bold';
+}
+
+.mail-text {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'OpenSans-Regular';
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(4.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-send {
+    height: 70px;
+    color: #fff;
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #222222;
+    font-family: 'Montserrat-SemiBold';
+}
+
+.background-color {
+    width: 100%;
+    background-color: rgb(247, 148, 29);
+}
+
+.copy-text {
+    color: #000000;
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-family: 'Montserrat-SemiBold';
+}
+
+/*=================== Belo Banner Margins ===================*/
+.link-style {
+    text-decoration: none;
+    color: #fff;
+}
+
+    .link-style:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+
+.comments-space {
+    text-align: justify;
+}
+
+.remaining-contents span {
+    display: none;
+}
+
+.link-styles {
+    color: #595959;
+    text-decoration: none;
+}
+
+    .link-styles:hover {
+        color: #595959;
+        text-decoration: none;
+    }
+
+/*==================================*/
+
+
+/*==================================*/
+/*=================== Belo Banner Margins ===================*/
+.cursor {
+    cursor: pointer;
+}
+/*=================== Custome Margins ===================*/
+.mt-300 {
+    margin-top: 300px;
+}
+
+.mt-290 {
+    margin-top: 290px;
+}
+
+.mt-280 {
+    margin-top: 280px;
+}
+
+.mt-270 {
+    margin-top: 270px;
+}
+
+.mt-260 {
+    margin-top: 260px;
+}
+
+.mt-250 {
+    margin-top: 250px;
+}
+
+.mt-240 {
+    margin-top: 240px;
+}
+
+.mt-230 {
+    margin-top: 230px;
+}
+
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.mt-180 {
+    margin-top: 180px;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+.mt-140 {
+    margin-top: 140px;
+}
+
+.mt-120 {
+    margin-top: 120px;
+}
+
+.mt-115 {
+    margin-top: 115px;
+}
+
+.mt-110 {
+    margin-top: 110px;
+}
+
+.mt-108 {
+    margin-top: 108px;
+}
+
+.mt-106 {
+    margin-top: 106px;
+}
+
+.mt-105 {
+    margin-top: 105px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-99 {
+    margin-top: 99px;
+}
+
+.mt-95 {
+    margin-top: 95px;
+}
+
+.mt-94 {
+    margin-top: 94px;
+}
+
+.mt-93 {
+    margin-top: 93px;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.mt-89 {
+    margin-top: 89px;
+}
+
+.mt-88 {
+    margin-top: 88px;
+}
+
+.mt-87 {
+    margin-top: 87px;
+}
+
+.mt-86 {
+    margin-top: 86px;
+}
+
+.mt-85 {
+    margin-top: 85px;
+}
+
+.mt-84 {
+    margin-top: 84px;
+}
+
+.mt-83 {
+    margin-top: 83px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-75 {
+    margin-top: 75px;
+}
+
+.mt-74 {
+    margin-top: 74px;
+}
+
+.mt-73 {
+    margin-top: 73px;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.mt-65 {
+    margin-top: 65px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mt-55 {
+    margin-top: 55px;
+}
+
+.mt-53 {
+    margin-top: 53px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-49 {
+    margin-top: 49px;
+}
+
+.mt-48 {
+    margin-top: 48px;
+}
+
+.mt-47 {
+    margin-top: 47px;
+}
+
+.mt-46 {
+    margin-top: 46px;
+}
+
+.mt-45 {
+    margin-top: 45px;
+}
+
+.mt-44 {
+    margin-top: 44px;
+}
+
+.mt-43 {
+    margin-top: 43px;
+}
+
+.mt-42 {
+    margin-top: 42px;
+}
+
+.mt-41 {
+    margin-top: 41px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-38 {
+    margin-top: 38px;
+}
+
+.mt-35 {
+    margin-top: 35px;
+}
+
+.mt-34 {
+    margin-top: 34px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-29 {
+    margin-top: 29px;
+}
+
+.mt-28 {
+    margin-top: 28px;
+}
+
+.mt-27 {
+    margin-top: 27px;
+}
+
+.mt-26 {
+    margin-top: 26px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+/*=========== Margin Bottom ===========*/
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mb-110 {
+    margin-bottom: 110px;
+}
+
+.mb-160 {
+    margin-bottom: 160px;
+}
+
+.b-50 {
+    bottom: 50px;
+}
+
+.b-30 {
+    bottom: 30px;
+}
+/*================ Margin-Left ===================*/
+.ml-23 {
+    margin-left: 23px;
+}
+
+.ml-77 {
+    margin-left: 77%;
+}
+/*================ Padding-Top ===================*/
+.pt-120 {
+    padding-top: 120px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+
+
+/*======= Some Commen Styling ======*/
+
+
+button:focus {
+    outline: none;
+    outline: none;
+}
+
+.btn-load-more {
+    width: 194px;
+    height: 61px;
+    font-size: 21px;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Montserrat-Bold';
+    font-weight: bold;
+    border: none;
+    box-shadow: 8px 8px 0 -2px #a0cfe1;
+    border-radius: 0px;
+    background-image: -moz-linear-gradient( 90deg, rgb(15,97,119) 0%, rgb(24,138,159) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(15,97,119) 0%, rgb(24,138,159) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(15,97,119) 0%, rgb(24,138,159) 100%);
+}
+
+    .btn-load-more:hover {
+        background-image: -moz-linear-gradient( 90deg, rgb(15,97,119) 0%, rgb(24,138,159) 100%);
+        background-image: -webkit-linear-gradient( 90deg, rgb(15,97,119) 0%, rgb(24,138,159) 100%);
+        background-image: -ms-linear-gradient( 90deg, rgb(15,97,119) 0%, rgb(24,138,159) 100%);
+    }
+
+.left-text {
+    text-align: left;
+}
+
+.mail-to-hos {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+    .mail-to-hos:hover {
+        text-decoration: none;
+        color: #4a4a4a;
+    }
+
+.mail-to-style {
+    text-decoration: none;
+    color: #000000;
+}
+
+    .mail-to-style:hover {
+        text-decoration: none;
+        color: #000000;
+    }
+
+.btn-r-0 {
+    border-radius: 0px !important;
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.list-group-item-action {
+    cursor: pointer !important;
+}
+
+.mt--95 {
+    margin-top: -12px;
+}
+
+/*================ Calender Styling ===============*/
+.pignose-calendar {
+    width: 100%;
+    max-width: 100%;
+    background-color: #f2f2f2;
+}
+
+    .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav .pignose-calendar-top-icon {
+        position: absolute;
+        top: 2px;
+        left: 14px;
+    }
+
+    .pignose-calendar .pignose-calendar-top {
+        color: #fff;
+        text-transform: capitalize !important;
+        background-color: #006a92;
+    }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-month {
+            color: #fff;
+            font-size: 22px;
+            text-transform: capitalize;
+            font-family: 'Raleway-Bold';
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-year {
+            color: #fff;
+            font-size: 22px;
+            text-transform: capitalize;
+            font-family: 'Raleway-Bold';
+        }
+
+    .pignose-calendar .pignose-calendar-header {
+        color: #fff;
+        padding: 12px 1.2em;
+        margin-top: 2px;
+        font-weight: 500;
+        font-size: 20px;
+        font-family: 'arial';
+        background-color: #3fb7e9;
+    }
+
+    .pignose-calendar .pignose-calendar-unit.pignose-calendar-unit-active a {
+        background-color: #006a92;
+        line-height: 153px;
+        height: 100%;
+        width: 100%;
+    }
+
+        .pignose-calendar .pignose-calendar-unit.pignose-calendar-unit-active a:hover {
+            background-color: #006a92;
+            color: #fff;
+        }
+
+    .pignose-calendar .pignose-calendar-unit a {
+        display: inline-block;
+        width: 3.8em;
+        height: auto;
+        border-radius: 0%;
+        color: #000000;
+        line-height: 60px;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'arial';
+    }
+
+    .pignose-calendar .pignose-calendar-unit {
+        float: left;
+        display: block;
+        height: 150px;
+        width: 14.28%;
+        text-align: center;
+        line-height: 10.8em;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-left: 2px solid #d9d9d9;
+    }
+
+    .pignose-calendar .pignose-calendar-body .pignose-calendar-row {
+        border-top: 1px solid #d9d9d9;
+        border-bottom: 1px solid #d9d9d9;
+    }
+
+    .pignose-calendar .pignose-calendar-body {
+        padding: 0px;
+    }
+
+    .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav.pignose-calendar-top-prev {
+        margin-bottom: 14px;
+    }
+
+    .pignose-calendar .pignose-calendar-header .pignose-calendar-week.pignose-calendar-week-sun, .pignose-calendar .pignose-calendar-header .pignose-calendar-week.pignose-calendar-week-sat {
+        color: #fff;
+    }
+
+    .pignose-calendar .pignose-calendar-unit.pignose-calendar-unit-sun a, .pignose-calendar .pignose-calendar-unit.pignose-calendar-unit-sat a {
+        color: #000000;
+    }
+
+    .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav.pignose-calendar-top-next {
+        margin-right: 2.9em;
+    }
+
+.cocoen-drag::before {
+    border: 27px solid #006a92;
+    content: '<-->';
+    height: 54px;
+    left: 50%;
+    font-weight: bolder;
+    margin-left: -46px;
+    margin-top: -25px;
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    width: 90px;
+    border-radius: 48%;
+}
+
+/*================ Media Query ===============*/
+@media screen and (max-width: 1024px) {
+    .lip-bg {
+        height: 100%;
+        padding: 25px 35px;
+    }
+
+
+    .nav-item {
+        padding: 6px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+
+    .media-header-mt {
+        margin-top: 10px;
+    }
+
+    .media-header-mt {
+        margin-top: 10px;
+    }
+
+    #HOME {
+        padding: 40px 0px 30px 0px;
+    }
+
+    .help-text {
+        font-size: 30px;
+    }
+
+    .main-heading {
+        font-size: 50px;
+    }
+
+    .look-text {
+        font-size: 50px;
+    }
+
+    .sub-desc {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 150px;
+        height: 54px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .btn-appointment {
+        width: 175px;
+        height: 55px;
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    .exellence-text {
+        font-size: 23px;
+    }
+
+    .color-one {
+        font-size: 30px;
+    }
+
+    .color-two {
+        font-size: 30px;
+    }
+
+    .about-text {
+        width: 82%;
+        font-size: 16px;
+        margin-left: 12%
+    }
+
+    .option-text {
+        font-size: 19px;
+    }
+
+    .no-color {
+        font-size: 21px;
+    }
+
+    .book-visit {
+        font-size: 18px;
+    }
+
+    .service-text {
+        font-size: 26px;
+    }
+
+    .sur-text {
+        font-size: 20px;
+    }
+
+    .sur-desc {
+        font-size: 16px;
+    }
+
+
+
+    .facial-text {
+        font-size: 22px;
+    }
+
+    .facial-desc {
+        font-size: 16px;
+    }
+
+    .customer-text {
+        font-size: 22px;
+    }
+
+    .service-heading {
+        font-size: 18px;
+    }
+
+    .service-desc {
+        font-size: 16px;
+    }
+
+    .mt-105 {
+        margin-top: 0px;
+    }
+
+    .mt-110 {
+        margin-top: 40px;
+    }
+
+    .dis-text {
+        font-size: 30px;
+    }
+
+    .after-gallery-text {
+        font-size: 25px;
+    }
+
+    .gallery-desc {
+        font-size: 18px;
+    }
+
+    .gallery-text-desc {
+        font-size: 13px;
+    }
+
+    .btn-view-gallery {
+        font-size: 13px;
+    }
+
+    .g-text {
+        font-size: 30px;
+    }
+
+    .appoint-text {
+        font-size: 22px;
+    }
+
+    .appoint-color {
+        padding: 20px 10px 10px 24px;
+    }
+
+    .avail-text {
+        font-size: 26px;
+    }
+
+    .s-text {
+        font-size: 14px;
+    }
+
+    .date-text {
+        font-size: 15px;
+    }
+
+    .space-text {
+        font-size: 18px;
+    }
+
+    .doc-text {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+
+    .info-text {
+        font-size: 26px;
+    }
+
+    .mail-text {
+        font-size: 18px;
+    }
+
+    .contact-text {
+        font-size: 26px
+    }
+
+    .copy-text {
+        font-size: 15px;
+    }
+
+    .btn-send {
+        height: 55px;
+        font-size: 19px;
+    }
+    /*==== Calender =====*/
+    .pignose-calendar {
+        font-size: 100%;
+    }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav.pignose-calendar-top-next {
+            margin-right: 3.6em;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-month {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-year {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-header {
+            padding: 12px 0.2em;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav .pignose-calendar-top-icon {
+            top: 3px;
+        }
+
+        .pignose-calendar .pignose-calendar-header {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-unit a {
+            display: inline-block;
+            width: 5.2em;
+            height: 60px;
+            border-radius: 0%;
+            color: #000000;
+            line-height: 57px;
+            text-align: center;
+            font-size: 24px;
+            font-family: 'arial';
+        }
+
+        .pignose-calendar .pignose-calendar-unit.pignose-calendar-unit-active a {
+            line-height: 135px;
+        }
+
+        .pignose-calendar .pignose-calendar-unit {
+            height: 140px;
+            line-height: 8.8em;
+        }
+
+    /*====== End Calender =====*/
+}
+
+@media screen and (max-width:800px) {
+    .media-skin-mt {
+        margin-top: 20px;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .media-about-mt {
+        margin-top: 30px;
+    }
+
+    .ml-25-per {
+        margin-left: 34%;
+    }
+
+    .media-header-mt {
+        margin-top: 10px;
+    }
+
+    #HOME {
+        padding: 40px 0px 30px 0px;
+    }
+
+    .help-text {
+        font-size: 30px;
+    }
+
+    .main-heading {
+        font-size: 50px;
+    }
+
+    .look-text {
+        font-size: 50px;
+    }
+
+    .sub-desc {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 150px;
+        height: 54px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .btn-appointment {
+        width: 175px;
+        height: 55px;
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    .exellence-text {
+        font-size: 23px;
+    }
+
+    .color-one {
+        font-size: 26px;
+    }
+
+    .color-two {
+        font-size: 26px;
+    }
+
+    .about-text {
+        font-size: 14px;
+    }
+
+    .option-text {
+        font-size: 16px;
+    }
+
+    .no-color {
+        font-size: 17px;
+    }
+
+    .book-visit {
+        font-size: 18px;
+    }
+
+    .service-text {
+        font-size: 26px;
+    }
+
+    .sur-text {
+        font-size: 20px;
+    }
+
+    .sur-desc {
+        font-size: 16px;
+    }
+
+
+
+    .facial-text {
+        font-size: 22px;
+    }
+
+    .facial-desc {
+        font-size: 16px;
+    }
+
+    .customer-text {
+        font-size: 22px;
+    }
+
+    .service-heading {
+        font-size: 18px;
+    }
+
+    .service-desc {
+        font-size: 16px;
+    }
+
+    .mt-105 {
+        margin-top: 0px;
+    }
+
+    .mt-110 {
+        margin-top: 40px;
+    }
+
+    .dis-text {
+        font-size: 19px;
+    }
+
+    .after-gallery-text {
+        font-size: 25px;
+    }
+
+    .gallery-desc {
+        font-size: 18px;
+    }
+
+    .gallery-text-desc {
+        font-size: 13px;
+    }
+
+    .btn-view-gallery {
+        font-size: 13px;
+    }
+
+    .g-text {
+        font-size: 30px;
+    }
+
+    .appoint-text {
+        font-size: 22px;
+    }
+
+    .appoint-color {
+        padding: 20px 10px 10px 24px;
+    }
+
+    .avail-text {
+        font-size: 18px;
+    }
+
+    .s-text {
+        font-size: 14px;
+    }
+
+    .date-text {
+        font-size: 15px;
+    }
+
+    .space-text {
+        font-size: 18px;
+    }
+
+    .doc-text {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+
+    .info-text {
+        font-size: 26px;
+    }
+
+    .mail-text {
+        font-size: 18px;
+    }
+
+    .contact-text {
+        font-size: 26px
+    }
+
+    .copy-text {
+        font-size: 15px;
+    }
+
+    .btn-send {
+        height: 55px;
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+
+    .media-skin-mt {
+        margin-top: 20px;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .media-about-mt {
+        margin-top: 30px;
+    }
+
+    .ml-25-per {
+        margin-left: 34%;
+    }
+
+    .media-header-mt {
+        margin-top: 10px;
+    }
+
+    #HOME {
+        padding: 40px 0px 30px 0px;
+    }
+
+    .help-text {
+        font-size: 30px;
+    }
+
+    .main-heading {
+        font-size: 50px;
+    }
+
+    .look-text {
+        font-size: 50px;
+    }
+
+    .sub-desc {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 150px;
+        height: 54px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .btn-appointment {
+        width: 175px;
+        height: 55px;
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    .exellence-text {
+        font-size: 23px;
+    }
+
+    .color-one {
+        font-size: 26px;
+    }
+
+    .color-two {
+        font-size: 26px;
+    }
+
+    .about-text {
+        font-size: 14px;
+    }
+
+    .option-text {
+        font-size: 16px;
+    }
+
+    .no-color {
+        font-size: 17px;
+    }
+
+    .book-visit {
+        font-size: 18px;
+    }
+
+    .service-text {
+        font-size: 26px;
+    }
+
+    .sur-text {
+        font-size: 20px;
+    }
+
+    .sur-desc {
+        font-size: 16px;
+    }
+
+
+
+    .facial-text {
+        font-size: 22px;
+    }
+
+    .facial-desc {
+        font-size: 16px;
+    }
+
+    .customer-text {
+        font-size: 22px;
+    }
+
+    .service-heading {
+        font-size: 18px;
+    }
+
+    .service-desc {
+        font-size: 16px;
+    }
+
+    .mt-105 {
+        margin-top: 0px;
+    }
+
+    .mt-110 {
+        margin-top: 40px;
+    }
+
+    .dis-text {
+        font-size: 19px;
+    }
+
+    .after-gallery-text {
+        font-size: 25px;
+    }
+
+    .gallery-desc {
+        font-size: 18px;
+    }
+
+    .gallery-text-desc {
+        font-size: 13px;
+    }
+
+    .btn-view-gallery {
+        font-size: 13px;
+    }
+
+    .g-text {
+        font-size: 30px;
+    }
+
+    .appoint-text {
+        font-size: 22px;
+    }
+
+    .appoint-color {
+        padding: 20px 10px 10px 24px;
+    }
+
+    .avail-text {
+        font-size: 18px;
+    }
+
+    .s-text {
+        font-size: 14px;
+    }
+
+    .date-text {
+        font-size: 15px;
+    }
+
+    .space-text {
+        font-size: 18px;
+    }
+
+    .doc-text {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+
+    .info-text {
+        font-size: 26px;
+    }
+
+    .mail-text {
+        font-size: 18px;
+    }
+
+    .contact-text {
+        font-size: 26px
+    }
+
+    .copy-text {
+        font-size: 15px;
+    }
+
+    .btn-send {
+        height: 55px;
+        font-size: 19px;
+    }
+    /*==== Calender =====*/
+    .pignose-calendar {
+        font-size: 100%;
+    }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav.pignose-calendar-top-next {
+            margin-right: 3.6em;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-month {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-year {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-header {
+            padding: 12px 0.2em;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav .pignose-calendar-top-icon {
+            top: 3px;
+        }
+
+        .pignose-calendar .pignose-calendar-header {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-unit a {
+            display: inline-block;
+            width: 3.8em;
+            height: 56px;
+            border-radius: 0%;
+            color: #000000;
+            line-height: 57px;
+            text-align: center;
+            font-size: 24px;
+            font-family: 'arial';
+        }
+
+        .pignose-calendar .pignose-calendar-unit {
+            height: 95px;
+            line-height: 6.8em;
+        }
+
+            .pignose-calendar .pignose-calendar-unit.pignose-calendar-unit-active a {
+                line-height: 100px;
+            }
+
+    /*====== End Calender =====*/
+}
+
+@media screen and (max-width: 414px) {
+    /*==== Calender =====*/
+    .pignose-calendar {
+        font-size: 72%;
+    }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav.pignose-calendar-top-next {
+            margin-right: 3.6em;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-month {
+            font-size: 17px;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-year {
+            font-size: 17px;
+        }
+
+        .pignose-calendar .pignose-calendar-header {
+            padding: 12px 0.2em;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav .pignose-calendar-top-icon {
+            top: 10px;
+        }
+
+        .pignose-calendar .pignose-calendar-header {
+            font-size: 14px;
+        }
+
+        .pignose-calendar .pignose-calendar-unit a {
+            display: inline-block;
+            width: 2.8em;
+            height: auto;
+            border-radius: 0%;
+            color: #000000;
+            line-height: 41px;
+            text-align: center;
+            font-size: 15px;
+            font-family: 'arial';
+        }
+
+        .pignose-calendar .pignose-calendar-unit.pignose-calendar-unit-active a {
+            line-height: 53px;
+        }
+
+        .pignose-calendar .pignose-calendar-unit {
+            height: 50px;
+            line-height: 4.8em;
+        }
+    /*====== End Calender =====*/
+    .media-align {
+        text-align: center;
+    }
+
+    .media-contact-mt {
+        margin-top: 30px;
+    }
+
+    .media-about-mt {
+        margin-top: 30px;
+    }
+
+    .ml-25-per {
+        margin-left: 48px;
+    }
+
+    .header-bg {
+        padding: 50px 30px 10px 30px;
+    }
+
+    .media-header-mt {
+        margin-top: 10px;
+    }
+
+    #HOME {
+        padding: 95px 0px 30px 0px;
+    }
+
+    .help-text {
+        font-size: 22px;
+    }
+
+    .main-heading {
+        font-size: 35px;
+    }
+
+    .look-text {
+        font-size: 35px;
+    }
+
+    .sub-desc {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 150px;
+        height: 54px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .btn-appointment {
+        width: 175px;
+        height: 55px;
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    .exellence-text {
+        font-size: 23px;
+    }
+
+    .color-one {
+        font-size: 26px;
+    }
+
+    .color-two {
+        font-size: 26px;
+    }
+
+    .about-text {
+        font-size: 14px;
+    }
+
+    .option-text {
+        font-size: 16px;
+    }
+
+    .no-color {
+        font-size: 17px;
+    }
+
+    .book-visit {
+        font-size: 18px;
+    }
+
+    .service-text {
+        font-size: 26px;
+    }
+
+    .sur-text {
+        font-size: 20px;
+    }
+
+    .sur-desc {
+        font-size: 16px;
+    }
+
+    .media-width {
+        width: 100%;
+    }
+
+    .facial-text {
+        font-size: 22px;
+    }
+
+    .facial-desc {
+        font-size: 16px;
+    }
+
+    .customer-text {
+        font-size: 22px;
+    }
+
+    .service-heading {
+        font-size: 18px;
+    }
+
+    .service-desc {
+        font-size: 16px;
+    }
+
+    .mt-105 {
+        margin-top: 5px;
+    }
+
+    .mt-110 {
+        margin-top: 40px;
+    }
+
+    .dis-text {
+        font-size: 19px;
+    }
+
+    .after-gallery-text {
+        font-size: 25px;
+    }
+
+    .gallery-desc {
+        font-size: 18px;
+    }
+
+    .gallery-text-desc {
+        font-size: 13px;
+    }
+
+    .btn-view-gallery {
+        font-size: 13px;
+    }
+
+    .g-text {
+        font-size: 30px;
+    }
+
+    .appoint-text {
+        font-size: 22px;
+    }
+
+    .appoint-color {
+        padding: 20px 10px 10px 24px;
+    }
+
+    .avail-text {
+        font-size: 18px;
+    }
+
+    .s-text {
+        font-size: 14px;
+    }
+
+    .date-text {
+        font-size: 15px;
+    }
+
+    .space-text {
+        font-size: 18px;
+    }
+
+    .doc-text {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+
+    .info-text {
+        font-size: 26px;
+    }
+
+    .mail-text {
+        font-size: 18px;
+    }
+
+    .contact-text {
+        font-size: 26px
+    }
+
+    .copy-text {
+        font-size: 15px;
+    }
+
+    .btn-send {
+        height: 55px;
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .sleep {
+        padding: 0.5rem 1rem;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .media-about-mt {
+        margin-top: 30px;
+    }
+
+    .ml-25-per {
+        margin-left: 48px;
+    }
+
+    .header-bg {
+        padding: 50px 30px 10px 30px;
+    }
+
+    .media-header-mt {
+        margin-top: 10px;
+    }
+
+    #HOME {
+        padding: 95px 0px 30px 0px;
+    }
+
+    .help-text {
+        font-size: 22px;
+    }
+
+    .main-heading {
+        font-size: 35px;
+    }
+
+    .look-text {
+        font-size: 35px;
+    }
+
+    .sub-desc {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 150px;
+        height: 54px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .btn-appointment {
+        width: 175px;
+        height: 55px;
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    .exellence-text {
+        font-size: 23px;
+    }
+
+    .color-one {
+        font-size: 26px;
+    }
+
+    .color-two {
+        font-size: 26px;
+    }
+
+    .about-text {
+        font-size: 14px;
+    }
+
+    .option-text {
+        font-size: 16px;
+    }
+
+    .no-color {
+        font-size: 17px;
+    }
+
+    .book-visit {
+        font-size: 18px;
+    }
+
+    .service-text {
+        font-size: 26px;
+    }
+
+    .sur-text {
+        font-size: 20px;
+    }
+
+    .sur-desc {
+        font-size: 16px;
+    }
+
+    .media-width {
+        width: 100%;
+    }
+
+    .facial-text {
+        font-size: 22px;
+    }
+
+    .facial-desc {
+        font-size: 16px;
+    }
+
+    .customer-text {
+        font-size: 22px;
+    }
+
+    .service-heading {
+        font-size: 18px;
+    }
+
+    .service-desc {
+        font-size: 16px;
+    }
+
+    .mt-105 {
+        margin-top: 5px;
+    }
+
+    .mt-110 {
+        margin-top: 40px;
+    }
+
+    .dis-text {
+        font-size: 19px;
+    }
+
+    .after-gallery-text {
+        font-size: 25px;
+    }
+
+    .gallery-desc {
+        font-size: 18px;
+    }
+
+    .gallery-text-desc {
+        font-size: 13px;
+    }
+
+    .btn-view-gallery {
+        font-size: 13px;
+    }
+
+    .g-text {
+        font-size: 30px;
+    }
+
+    .appoint-text {
+        font-size: 22px;
+    }
+
+    .appoint-color {
+        padding: 20px 10px 10px 24px;
+    }
+
+    .avail-text {
+        font-size: 18px;
+    }
+
+    .s-text {
+        font-size: 14px;
+    }
+
+    .date-text {
+        font-size: 15px;
+    }
+
+    .space-text {
+        font-size: 18px;
+    }
+
+    .doc-text {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+
+    .info-text {
+        font-size: 26px;
+    }
+
+    .mail-text {
+        font-size: 18px;
+    }
+
+    .contact-text {
+        font-size: 26px
+    }
+
+    .copy-text {
+        font-size: 15px;
+    }
+
+    .btn-send {
+        height: 55px;
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .sleep {
+        padding: 0.5rem 1rem;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .media-about-mt {
+        margin-top: 30px;
+    }
+
+    .ml-25-per {
+        margin-left: 48px;
+    }
+
+    .header-bg {
+        padding: 50px 30px 10px 30px;
+    }
+
+    .media-header-mt {
+        margin-top: 10px;
+    }
+
+    #HOME {
+        padding: 95px 0px 30px 0px;
+    }
+
+    .help-text {
+        font-size: 22px;
+    }
+
+    .main-heading {
+        font-size: 35px;
+    }
+
+    .look-text {
+        font-size: 35px;
+    }
+
+    .sub-desc {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 150px;
+        height: 54px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .btn-appointment {
+        width: 175px;
+        height: 55px;
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    .exellence-text {
+        font-size: 23px;
+    }
+
+    .color-one {
+        font-size: 26px;
+    }
+
+    .color-two {
+        font-size: 26px;
+    }
+
+    .about-text {
+        font-size: 14px;
+    }
+
+    .option-text {
+        font-size: 16px;
+    }
+
+    .no-color {
+        font-size: 17px;
+    }
+
+    .book-visit {
+        font-size: 18px;
+    }
+
+    .service-text {
+        font-size: 26px;
+    }
+
+    .sur-text {
+        font-size: 20px;
+    }
+
+    .sur-desc {
+        font-size: 16px;
+    }
+
+    .media-width {
+        width: 100%;
+    }
+
+    .facial-text {
+        font-size: 22px;
+    }
+
+    .facial-desc {
+        font-size: 16px;
+    }
+
+    .customer-text {
+        font-size: 22px;
+    }
+
+    .service-heading {
+        font-size: 18px;
+    }
+
+    .service-desc {
+        font-size: 16px;
+    }
+
+    .mt-105 {
+        margin-top: 5px;
+    }
+
+    .mt-110 {
+        margin-top: 40px;
+    }
+
+    .dis-text {
+        font-size: 19px;
+    }
+
+    .after-gallery-text {
+        font-size: 25px;
+    }
+
+    .gallery-desc {
+        font-size: 18px;
+    }
+
+    .gallery-text-desc {
+        font-size: 13px;
+    }
+
+    .btn-view-gallery {
+        font-size: 13px;
+    }
+
+    .g-text {
+        font-size: 30px;
+    }
+
+    .appoint-text {
+        font-size: 22px;
+    }
+
+    .appoint-color {
+        padding: 20px 10px 10px 24px;
+    }
+
+    .avail-text {
+        font-size: 18px;
+    }
+
+    .s-text {
+        font-size: 14px;
+    }
+
+    .date-text {
+        font-size: 15px;
+    }
+
+    .space-text {
+        font-size: 18px;
+    }
+
+    .doc-text {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+
+    .info-text {
+        font-size: 26px;
+    }
+
+    .mail-text {
+        font-size: 18px;
+    }
+
+    .contact-text {
+        font-size: 26px
+    }
+
+    .copy-text {
+        font-size: 15px;
+    }
+
+    .btn-send {
+        height: 55px;
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .sleep {
+        padding: 0.5rem 1rem;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .media-about-mt {
+        margin-top: 30px;
+    }
+
+    .ml-25-per {
+        margin-left: 48px;
+    }
+
+    .header-bg {
+        padding: 50px 30px 10px 30px;
+    }
+
+    .media-header-mt {
+        margin-top: 10px;
+    }
+
+    #HOME {
+        padding: 95px 0px 30px 0px;
+    }
+
+    .help-text {
+        font-size: 22px;
+    }
+
+    .main-heading {
+        font-size: 35px;
+    }
+
+    .look-text {
+        font-size: 35px;
+    }
+
+    .sub-desc {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 150px;
+        height: 54px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .btn-appointment {
+        width: 175px;
+        height: 55px;
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    .exellence-text {
+        font-size: 23px;
+    }
+
+    .color-one {
+        font-size: 26px;
+    }
+
+    .color-two {
+        font-size: 26px;
+    }
+
+    .about-text {
+        font-size: 14px;
+    }
+
+    .option-text {
+        font-size: 16px;
+    }
+
+    .no-color {
+        font-size: 17px;
+    }
+
+    .book-visit {
+        font-size: 18px;
+    }
+
+    .service-text {
+        font-size: 26px;
+    }
+
+    .sur-text {
+        font-size: 20px;
+    }
+
+    .sur-desc {
+        font-size: 16px;
+    }
+
+    .media-width {
+        width: 100%;
+    }
+
+    .facial-text {
+        font-size: 22px;
+    }
+
+    .facial-desc {
+        font-size: 16px;
+    }
+
+    .customer-text {
+        font-size: 22px;
+    }
+
+    .service-heading {
+        font-size: 18px;
+    }
+
+    .service-desc {
+        font-size: 16px;
+    }
+
+    .mt-105 {
+        margin-top: 5px;
+    }
+
+    .mt-110 {
+        margin-top: 40px;
+    }
+
+    .dis-text {
+        font-size: 19px;
+    }
+
+    .after-gallery-text {
+        font-size: 25px;
+    }
+
+    .gallery-desc {
+        font-size: 18px;
+    }
+
+    .gallery-text-desc {
+        font-size: 13px;
+    }
+
+    .btn-view-gallery {
+        font-size: 13px;
+    }
+
+    .g-text {
+        font-size: 30px;
+    }
+
+    .appoint-text {
+        font-size: 22px;
+    }
+
+    .appoint-color {
+        padding: 20px 10px 10px 24px;
+    }
+
+    .avail-text {
+        font-size: 18px;
+    }
+
+    .s-text {
+        font-size: 14px;
+    }
+
+    .date-text {
+        font-size: 15px;
+    }
+
+    .space-text {
+        font-size: 18px;
+    }
+
+    .doc-text {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+
+    .info-text {
+        font-size: 26px;
+    }
+
+    .mail-text {
+        font-size: 18px;
+    }
+
+    .contact-text {
+        font-size: 26px
+    }
+
+    .copy-text {
+        font-size: 15px;
+    }
+
+    .btn-send {
+        height: 55px;
+        font-size: 19px;
+    }
+}
+
+/*==================== Media Query For Land Scape Mode =====================*/
+@media screen and (max-width: 1500px) and (orientation: landscape) {
+    .lip-bg {
+        height: 100%;
+    }
+
+    .skin-bg {
+        height: 100%;
+    }
+
+    .breast-bg {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    /*==== Calender =====*/
+    .pignose-calendar {
+        font-size: 100%;
+    }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav.pignose-calendar-top-next {
+            margin-right: 3.6em;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-month {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-year {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-header {
+            padding: 12px 0.2em;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav .pignose-calendar-top-icon {
+            top: 3px;
+        }
+
+        .pignose-calendar .pignose-calendar-header {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-unit a {
+            display: inline-block;
+            width: 5.2em;
+            height: 60px;
+            border-radius: 0%;
+            color: #000000;
+            line-height: 57px;
+            text-align: center;
+            font-size: 24px;
+            font-family: 'arial';
+        }
+
+    /*====== End Calender =====*/
+}
+
+@media screen and (max-width: 823px) and (orientation: landscape) {
+    .media-skin-mt {
+        margin-top: 20px;
+    }
+
+    .media-ml {
+        margin-left: 38% !important;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .media-about-mt {
+        margin-top: 30px;
+    }
+
+    .ml-25-per {
+        margin-left: 34%;
+    }
+
+    .media-header-mt {
+        margin-top: 10px;
+    }
+
+    #HOME {
+        padding: 40px 0px 30px 0px;
+    }
+
+    .help-text {
+        font-size: 30px;
+    }
+
+    .main-heading {
+        font-size: 50px;
+    }
+
+    .look-text {
+        font-size: 50px;
+    }
+
+    .sub-desc {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 150px;
+        height: 54px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .btn-appointment {
+        width: 175px;
+        height: 55px;
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    .exellence-text {
+        font-size: 23px;
+    }
+
+    .color-one {
+        font-size: 26px;
+    }
+
+    .color-two {
+        font-size: 26px;
+    }
+
+    .about-text {
+        font-size: 14px;
+    }
+
+    .option-text {
+        font-size: 16px;
+    }
+
+    .no-color {
+        font-size: 17px;
+    }
+
+    .book-visit {
+        font-size: 18px;
+    }
+
+    .service-text {
+        font-size: 26px;
+    }
+
+    .sur-text {
+        font-size: 20px;
+    }
+
+    .sur-desc {
+        font-size: 16px;
+    }
+
+    .facial-text {
+        font-size: 22px;
+    }
+
+    .facial-desc {
+        font-size: 16px;
+    }
+
+    .customer-text {
+        font-size: 22px;
+    }
+
+    .service-heading {
+        font-size: 18px;
+    }
+
+    .service-desc {
+        font-size: 16px;
+    }
+
+    .mt-105 {
+        margin-top: 5px;
+    }
+
+    .mt-110 {
+        margin-top: 40px;
+    }
+
+    .dis-text {
+        font-size: 19px;
+    }
+
+    .after-gallery-text {
+        font-size: 25px;
+    }
+
+    .gallery-desc {
+        font-size: 18px;
+    }
+
+    .gallery-text-desc {
+        font-size: 13px;
+    }
+
+    .btn-view-gallery {
+        font-size: 13px;
+    }
+
+    .g-text {
+        font-size: 30px;
+    }
+
+    .appoint-text {
+        font-size: 22px;
+    }
+
+    .appoint-color {
+        padding: 20px 10px 10px 24px;
+    }
+
+    .avail-text {
+        font-size: 18px;
+    }
+
+    .s-text {
+        font-size: 14px;
+    }
+
+    .date-text {
+        font-size: 15px;
+    }
+
+    .space-text {
+        font-size: 18px;
+    }
+
+    .doc-text {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+
+    .info-text {
+        font-size: 26px;
+    }
+
+    .mail-text {
+        font-size: 18px;
+    }
+
+    .contact-text {
+        font-size: 26px
+    }
+
+    .copy-text {
+        font-size: 15px;
+    }
+
+    .btn-send {
+        height: 55px;
+        font-size: 19px;
+    }
+    /*==== Calender =====*/
+    .pignose-calendar {
+        font-size: 100%;
+    }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav.pignose-calendar-top-next {
+            margin-right: 3.6em;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-month {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-year {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-header {
+            padding: 12px 0.2em;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav .pignose-calendar-top-icon {
+            top: 3px;
+        }
+
+        .pignose-calendar .pignose-calendar-header {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-unit a {
+            display: inline-block;
+            width: 3.9em;
+            height: 60px;
+            border-radius: 0%;
+            color: #000000;
+            line-height: 57px;
+            text-align: center;
+            font-size: 24px;
+            font-family: 'arial';
+        }
+
+        .pignose-calendar .pignose-calendar-unit.pignose-calendar-unit-active a {
+            line-height: 100px;
+        }
+
+        .pignose-calendar .pignose-calendar-unit {
+            height: 100px;
+            line-height: 6.6em;
+        }
+    /*====== End Calender =====*/
+}
+
+@media screen and (max-width: 740px) and (orientation: landscape) {
+    .media-align {
+        text-align: center;
+    }
+
+    .ml-25-per {
+        margin-left: 31%;
+    }
+
+    .media-header-mt {
+        margin-top: 10px;
+    }
+
+    #HOME {
+        padding: 40px 0px 30px 0px;
+    }
+
+    .help-text {
+        font-size: 30px;
+    }
+
+    .main-heading {
+        font-size: 50px;
+    }
+
+    .look-text {
+        font-size: 50px;
+    }
+
+    .sub-desc {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 150px;
+        height: 54px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .sur-text {
+        font-size: 25px;
+    }
+
+    .sur-desc {
+        font-size: 18px;
+    }
+
+    .facial-text {
+        font-size: 25px;
+    }
+
+    .facial-desc {
+        font-size: 18px;
+    }
+
+    .option-text {
+        font-size: 21px;
+    }
+
+    .no-color {
+        font-size: 23px;
+    }
+
+    .service-heading {
+        font-size: 25px;
+    }
+
+    .service-desc {
+        font-size: 18px;
+    }
+
+    .after-gallery-text {
+        font-size: 30px;
+    }
+
+    .gallery-desc {
+        font-size: 20px;
+    }
+
+    .gallery-text-desc {
+        font-size: 16px;
+    }
+
+    .appoint-text {
+        font-size: 30px;
+    }
+
+    .s-text {
+        font-size: 18px;
+    }
+
+    .date-text {
+        font-size: 20px;
+    }
+
+    .doc-social {
+        border: 1px solid;
+        padding: 3px;
+    }
+
+    .space-text {
+        font-size: 22px;
+    }
+
+    .no-text {
+        font-size: 12px;
+    }
+
+    .dis-text {
+        font-size: 30px;
+    }
+    /*==== Calender =====*/
+    .pignose-calendar {
+        font-size: 100%;
+    }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav.pignose-calendar-top-next {
+            margin-right: 3.6em;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-month {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-year {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-header {
+            padding: 12px 0.2em;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav .pignose-calendar-top-icon {
+            top: 3px;
+        }
+
+        .pignose-calendar .pignose-calendar-header {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-unit a {
+            display: inline-block;
+            width: 2.9em;
+            height: 60px;
+            border-radius: 0%;
+            color: #000000;
+            line-height: 57px;
+            text-align: center;
+            font-size: 24px;
+            font-family: 'arial';
+        }
+
+        .pignose-calendar .pignose-calendar-unit.pignose-calendar-unit-active a {
+            line-height: 79px;
+        }
+
+        .pignose-calendar .pignose-calendar-unit {
+            height: 78px;
+            line-height: 5.2em;
+        }
+    /*====== End Calender =====*/
+}
+
+@media screen and (max-width: 736px) and (orientation: landscape) {
+    .media-align {
+        text-align: center;
+    }
+
+    .ml-25-per {
+        margin-left: 31%;
+    }
+
+    .media-header-mt {
+        margin-top: 10px;
+    }
+
+    #HOME {
+        padding: 40px 0px 30px 0px;
+    }
+
+    .help-text {
+        font-size: 30px;
+    }
+
+    .main-heading {
+        font-size: 50px;
+    }
+
+    .look-text {
+        font-size: 50px;
+    }
+
+    .sub-desc {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 150px;
+        height: 54px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .sur-text {
+        font-size: 25px;
+    }
+
+    .sur-desc {
+        font-size: 18px;
+    }
+
+    .facial-text {
+        font-size: 25px;
+    }
+
+    .facial-desc {
+        font-size: 18px;
+    }
+
+    .option-text {
+        font-size: 21px;
+    }
+
+    .no-color {
+        font-size: 23px;
+    }
+
+    .service-heading {
+        font-size: 25px;
+    }
+
+    .service-desc {
+        font-size: 18px;
+    }
+
+    .after-gallery-text {
+        font-size: 30px;
+    }
+
+    .gallery-desc {
+        font-size: 20px;
+    }
+
+    .gallery-text-desc {
+        font-size: 16px;
+    }
+
+    .appoint-text {
+        font-size: 30px;
+    }
+
+    .s-text {
+        font-size: 18px;
+    }
+
+    .date-text {
+        font-size: 20px;
+    }
+
+    .doc-social {
+        border: 1px solid;
+        padding: 3px;
+    }
+
+    .space-text {
+        font-size: 22px;
+    }
+
+    .no-text {
+        font-size: 12px;
+    }
+
+    .dis-text {
+        font-size: 30px;
+    }
+    /*==== Calender =====*/
+    .pignose-calendar {
+        font-size: 100%;
+    }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav.pignose-calendar-top-next {
+            margin-right: 3.6em;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-month {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-year {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-header {
+            padding: 12px 0.2em;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav .pignose-calendar-top-icon {
+            top: 3px;
+        }
+
+        .pignose-calendar .pignose-calendar-header {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-unit a {
+            display: inline-block;
+            width: 2.9em;
+            height: 60px;
+            border-radius: 0%;
+            color: #000000;
+            line-height: 57px;
+            text-align: center;
+            font-size: 24px;
+            font-family: 'arial';
+        }
+
+        .pignose-calendar .pignose-calendar-unit.pignose-calendar-unit-active a {
+            line-height: 79px;
+        }
+
+        .pignose-calendar .pignose-calendar-unit {
+            height: 78px;
+            line-height: 5.2em;
+        }
+
+    /*====== End Calender =====*/
+}
+
+@media screen and (max-width: 731px) and (orientation: landscape) {
+    .media-align {
+        text-align: center;
+    }
+
+    .ml-25-per {
+        margin-left: 31%;
+    }
+
+    .media-header-mt {
+        margin-top: 10px;
+    }
+
+    #HOME {
+        padding: 40px 0px 30px 0px;
+    }
+
+    .help-text {
+        font-size: 30px;
+    }
+
+    .main-heading {
+        font-size: 50px;
+    }
+
+    .look-text {
+        font-size: 50px;
+    }
+
+    .sub-desc {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 150px;
+        height: 54px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .sur-text {
+        font-size: 25px;
+    }
+
+    .sur-desc {
+        font-size: 18px;
+    }
+
+    .facial-text {
+        font-size: 25px;
+    }
+
+    .facial-desc {
+        font-size: 18px;
+    }
+
+    .option-text {
+        font-size: 21px;
+    }
+
+    .no-color {
+        font-size: 23px;
+    }
+
+    .service-heading {
+        font-size: 25px;
+    }
+
+    .service-desc {
+        font-size: 18px;
+    }
+
+    .after-gallery-text {
+        font-size: 30px;
+    }
+
+    .gallery-desc {
+        font-size: 20px;
+    }
+
+    .gallery-text-desc {
+        font-size: 16px;
+    }
+
+    .appoint-text {
+        font-size: 30px;
+    }
+
+    .s-text {
+        font-size: 18px;
+    }
+
+    .date-text {
+        font-size: 20px;
+    }
+
+    .doc-social {
+        border: 1px solid;
+        padding: 3px;
+    }
+
+    .space-text {
+        font-size: 22px;
+    }
+
+    .no-text {
+        font-size: 12px;
+    }
+
+    .dis-text {
+        font-size: 30px;
+    }
+    /*==== Calender =====*/
+    .pignose-calendar {
+        font-size: 100%;
+    }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav.pignose-calendar-top-next {
+            margin-right: 3.6em;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-month {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-year {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-header {
+            padding: 12px 0.2em;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav .pignose-calendar-top-icon {
+            top: 3px;
+        }
+
+        .pignose-calendar .pignose-calendar-header {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-unit a {
+            display: inline-block;
+            width: 2.9em;
+            height: 60px;
+            border-radius: 0%;
+            color: #000000;
+            line-height: 57px;
+            text-align: center;
+            font-size: 24px;
+            font-family: 'arial';
+        }
+
+        .pignose-calendar .pignose-calendar-unit.pignose-calendar-unit-active a {
+            line-height: 79px;
+        }
+
+        .pignose-calendar .pignose-calendar-unit {
+            height: 78px;
+            line-height: 5.2em;
+        }
+
+    /*====== End Calender =====*/
+}
+
+@media screen and (max-width: 667px) and (orientation: landscape) {
+    .media-align {
+        text-align: center;
+    }
+
+    .ml-25-per {
+        margin-left: 31%;
+    }
+
+    .media-header-mt {
+        margin-top: 10px;
+    }
+
+    #HOME {
+        padding: 40px 0px 30px 0px;
+    }
+
+    .help-text {
+        font-size: 30px;
+    }
+
+    .main-heading {
+        font-size: 50px;
+    }
+
+    .look-text {
+        font-size: 50px;
+    }
+
+    .sub-desc {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 150px;
+        height: 54px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+    /*==== Calender =====*/
+    .pignose-calendar {
+        font-size: 100%;
+    }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav.pignose-calendar-top-next {
+            margin-right: 3.6em;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-month {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-year {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-header {
+            padding: 12px 0.2em;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav .pignose-calendar-top-icon {
+            top: 3px;
+        }
+
+        .pignose-calendar .pignose-calendar-header {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-unit a {
+            display: inline-block;
+            width: 2.8em;
+            height: 60px;
+            border-radius: 0%;
+            color: #000000;
+            line-height: 57px;
+            text-align: center;
+            font-size: 24px;
+            font-family: 'arial';
+        }
+
+        .pignose-calendar .pignose-calendar-unit.pignose-calendar-unit-active a {
+            line-height: 79px;
+        }
+
+        .pignose-calendar .pignose-calendar-unit {
+            height: 78px;
+            line-height: 5.2em;
+        }
+    /*====== End Calender =====*/
+}
+
+@media screen and (max-width: 640px) and (orientation: landscape) {
+    .media-align {
+        text-align: center;
+    }
+
+    .ml-25-per {
+        margin-left: 25%;
+    }
+
+    .media-header-mt {
+        margin-top: 10px;
+    }
+
+    #HOME {
+        padding: 95px 0px 30px 0px;
+    }
+
+    .help-text {
+        font-size: 30px;
+    }
+
+    .main-heading {
+        font-size: 50px;
+    }
+
+    .look-text {
+        font-size: 50px;
+    }
+
+    .sub-desc {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        width: 150px;
+        height: 54px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    /*==== Calender =====*/
+    .pignose-calendar {
+        font-size: 100%;
+    }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav.pignose-calendar-top-next {
+            margin-right: 3.6em;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-month {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-year {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-header {
+            padding: 12px 0.2em;
+        }
+
+        .pignose-calendar .pignose-calendar-top .pignose-calendar-top-nav .pignose-calendar-top-icon {
+            top: 3px;
+        }
+
+        .pignose-calendar .pignose-calendar-header {
+            font-size: 24px;
+        }
+
+        .pignose-calendar .pignose-calendar-unit a {
+            display: inline-block;
+            width: 2.8em;
+            height: 60px;
+            border-radius: 0%;
+            color: #000000;
+            line-height: 57px;
+            text-align: center;
+            font-size: 24px;
+            font-family: 'arial';
+        }
+
+        .pignose-calendar .pignose-calendar-unit.pignose-calendar-unit-active a {
+            line-height: 79px;
+        }
+
+        .pignose-calendar .pignose-calendar-unit {
+            height: 78px;
+            line-height: 5.2em;
+        }
+
+    /*====== End Calender =====*/
+}
