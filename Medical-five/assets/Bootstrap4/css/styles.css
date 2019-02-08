@@ -1,24 +1,4 @@
-﻿/*================================= 
-        Font-Family's Start
-  =================================*/
-@font-face {
-    font-family: 'HurmeGeometricSans4 Bold';
-    src: url('../../Fonts/HurmeGeometricSans4 Bold.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'Gobold Extra2';
-    src: url('../../Fonts/Gobold Extra2.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'HurmeGeometricSans4 SemiBold';
-    src: url('../../Fonts/HurmeGeometricSans4 SemiBold.otf') format('opentype');
-}
-
-/*================================= 
-        Font-Family's End
-  =================================*/
+﻿
 
 
 
@@ -52,7 +32,7 @@ html, body {
     border-left: 2px solid #bfbfbf;
     border-right: 2px solid #bfbfbf;
     border-bottom: 2px solid #bfbfbf;
-    margin-left: -6px;
+    margin-left: -7px;
     padding: 12px 15px;
 }
 
@@ -60,7 +40,7 @@ html, body {
     border-left: 2px solid #bfbfbf;
     border-right: 2px solid #bfbfbf;
     border-bottom: 2px solid #bfbfbf;
-    margin-left: -6px;
+    margin-left: -7px;
     padding: 10px 15px;
 }
 
@@ -121,7 +101,7 @@ html, body {
 
 .nav-item {
     position: relative;
-    padding: 15px;
+    padding: 0 15px 0 28px;
 }
 
 .link-blue {
@@ -200,22 +180,20 @@ html, body {
 
 .card-bg-color {
     background: #ffffff;
-    padding: 60px 45px;
+    padding: 44px 45px;
     border-top-left-radius: 78px;
-    box-shadow: 1.5px 2.598px 50px 0px rgba(0, 0, 0, 0.25);
 }
 
 .middle-card-bg {
     background: #ffffff;
-    padding: 60px 45px;
-    box-shadow: 1.5px 2.598px 50px 0px rgba(0, 0, 0, 0.25);
+    padding: 44px 45px;
+    box-shadow: inset 0px -2px 50px 0px rgba(0, 0, 0, 0.25);
 }
 
 .end-card-bg {
     background: #ffffff;
-    padding: 60px 45px;
+    padding: 44px 45px;
     border-bottom-right-radius: 78px;
-    box-shadow: 1.5px 2.598px 50px 0px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -234,7 +212,7 @@ html, body {
     color: #ffffff;
     font-weight: bold;
     font-size: 32px;
-    padding: 27px;
+    padding: 26px;
     line-height: 12px;
     border-radius: 50%;
     background-color: rgb(0, 166, 81);
@@ -433,11 +411,19 @@ html, body {
 
 .hover-text {
     color: #ffffff;
-    font-size: 24px;
+    font-size: 18px;
+    text-shadow: 2px 2px #016833;
     text-transform: uppercase;
     font-family: 'Lora', serif;
 }
 
+.hover-pera-text {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 .link-white {
@@ -456,7 +442,7 @@ html, body {
 }
 
 .image {
-    opacity: 1;
+    /*opacity: 1;*/
     display: block;
     width: 100%;
     height: auto;
@@ -475,20 +461,19 @@ html, body {
     text-align: center;
 }
 
-.p-0:hover .image {
-    opacity: 0.3;
+.bg-hover-color {
+    background-color: rgba(0, 166, 81,0.8);
 }
 
-.p-0:hover .middle {
-    opacity: 1;
-}
+    .bg-hover-color:hover .image {
+        opacity: 0.3;
+    }
 
-.text {
-    background-color: #4CAF50;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-}
+    .bg-hover-color:hover .middle {
+        opacity: 1;
+    }
+
+/*background-color: rgba(0, 166, 81,0.65);*/
 
 /*================================= 
       Visit Section Styling
@@ -504,9 +489,9 @@ html, body {
 
 
 
-::placeholder {
+#visit ::placeholder {
     color: #564f3c;
-    font-size: 19px !important;
+    font-size: 17px !important;
     font-weight: 600 !important;
     text-transform: uppercase !important;
     font-family: 'Montserrat', sans-serif !important;
@@ -561,12 +546,197 @@ html, body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.card {
+    border-radius: 0px;
+    border: 1px solid #a1a1a1;
+}
+
+.card-body {
+    padding: 0px;
+    border-top: 1px solid #a1a1a1;
+}
+
 .card-title {
     color: #000000;
     font-weight: bold;
     font-size: 20px;
     text-transform: capitalize;
     font-family: 'Montserrat', sans-serif;
+}
+
+.card-text {
+    color: #00a651;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.slick-padding {
+    padding: 80px 133px;
+}
+
+#doc-team .list-group-item {
+    padding: 20px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 28px;
+    border-radius: 0px;
+    background-color: #79cfa3;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #00a651;
+}
+/*================================= 
+      Contact Section Styling
+  =================================*/
+#contact {
+    background: #2a3139;
+    height: auto;
+    width: 100%;
+    padding: 60px 80px;
+}
+
+.line-styling {
+    background: #00a651;
+    height: 8px;
+    margin-bottom: 0;
+    width: 100%
+}
+
+.contact-pera-text {
+    color: #b8babc;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.address-text {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.phone-no {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.touch-text {
+    color: #00a651;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.below-touch {
+    line-height: 1em;
+    position: relative;
+}
+
+    .below-touch:after {
+        margin-top: 21px;
+        content: '';
+        position: absolute;
+        display: block;
+        width: 20%;
+        border: 3px solid #e6b408;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        left: 40%;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    }
+
+#fourty ::placeholder {
+    color: #5b6066 !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+
+.contact-input {
+    width: 100%;
+    color: #ffffff;
+    height: 40px;
+    border-width: 2px;
+    border-style: solid;
+    opacity: 0.502;
+    padding: 10px 10px;
+    background: transparent;
+    border-color: rgb(238, 238, 238);
+}
+
+.message-input {
+    color: #ffffff;
+    width: 100%;
+    border-width: 2px;
+    border-style: solid;
+    opacity: 0.502;
+    padding: 10px 10px;
+    background: transparent;
+    border-color: rgb(238, 238, 238);
+}
+
+.btn-send {
+    background: #00a651;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact-heading {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact-text-desc {
+    color: #9c9c9c;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.comments-space {
+    text-align: justify;
+}
+
+.remaining-contents span {
+    display: none;
+}
+
+.footer-line {
+    background: #e6b408;
+    width: 100%;
+    height: 5px;
+}
+
+.page-footer {
+    width: 100%;
+    height: auto;
+    background-color: #1d2228;
+}
+
+.footer-font {
+    color: #ffffff;
+    font-size: 22px;
+    padding-top: 22px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -871,7 +1041,51 @@ html, body {
 
 
 /*======= Some Commen Styling ======*/
+.hover-socialism {
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    background: #e6b408;
+    transition: all .5s ease-in-out;
+}
 
+    .hover-socialism:hover {
+        opacity: 1;
+        display: block;
+        height: 100%;
+        width: 100%;
+        background: #e6b408;
+        transition: all .5s ease-in-out;
+    }
+
+#doc-team .fa-twitter:before {
+    color: black;
+}
+
+#doc-team .fa-facebook-f:before {
+    color: black;
+}
+
+#doc-team .fa-instagram:before {
+    color: black;
+}
+
+#doc-team .fa-google-plus-g:before {
+    color: black;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    color: #000000;
+    font-size: 21px;
+}
+
+.hover-mail-text {
+    color: #000000;
+    font-weight: bold;
+    font-size: 21px;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
 
 button:focus {
     outline: none;
@@ -927,28 +1141,1651 @@ button:focus {
     box-shadow: none !important;
 }
 
-
+.custom-width {
+    width: 621px;
+    height: 779px;
+}
 
 /*================ Media Query ===============*/
 @media screen and (max-width: 1024px) {
+    .top-head-padding {
+        padding: 0 30px;
+    }
+
+    .custom-width {
+        height: 485px;
+    }
+
+    .no-text {
+        font-size: 16px;
+    }
+
+    .navbar {
+        padding: .5rem 1.4rem;
+    }
+
+    .nav-item {
+        padding: 0 13px 0 10px;
+    }
+
+    .mt-284 {
+        margin-top: -16px;
+    }
+
+
+    #home {
+        padding: 50px 10px;
+    }
+
+    .main-heading {
+        font-size: 36px;
+    }
+
+    .sub-desc {
+        font-size: 24px;
+    }
+
+    .btn-contact {
+        width: 250px;
+        height: 70px;
+        line-height: 55px;
+    }
+
+    .home-heading {
+        font-size: 19px;
+    }
+
+    .home-desc {
+        font-size: 14px;
+    }
+
+    .media-obj-color {
+        width: 50px;
+        height: 50px;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 28px;
+        padding: 18px;
+    }
+
+    #about {
+        padding: 50px 30px;
+    }
+
+    .about-heading {
+        font-size: 35px;
+    }
+
+    .about-sub-text {
+        font-size: 24px;
+    }
+
+    .mt-53 {
+        margin-top: 15px;
+    }
+
+    .about-desc {
+        font-size: 22px;
+    }
+
+    .list-group-item:first-child {
+        padding: 22px 94px;
+    }
+
+    .list-group-item {
+        padding: 22px 94px;
+    }
+
+    #chosse {
+        padding: 40px 20px 0px 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .below-tag:after {
+        width: 7%;
+        left: 0;
+    }
+
+    .ml-5 {
+        margin-left: 1rem !important;
+    }
+
+    .chosse-heading {
+        font-size: 22px;
+    }
+
+    .chosse-desc {
+        font-size: 18px;
+    }
+
+    .chosse-media-bg {
+        width: 60px;
+        height: 60px;
+        padding: 14px;
+    }
+
+    /*.mt-284 {
+        margin-top: 90px;
+    }*/
+
+    .media-width {
+        width: 100%;
+    }
+
+    .service-text {
+        font-size: 32px;
+    }
+
+    .service-desc {
+        font-size: 20px;
+    }
+
+    .service-heading {
+        font-size: 21px;
+    }
+
+    .service-heading-desc {
+        font-size: 17px;
+    }
+
+    .bg-gallery {
+        padding: 40px 0;
+    }
+
+    .gallery {
+        font-size: 27px;
+    }
+
+        .gallery::before,
+        .gallery::after {
+            border-top: 5px solid #e6b408;
+            width: 40px;
+        }
+
+    .hover-text {
+        font-size: 14px;
+    }
+
+    .hover-pera-text {
+        font-size: 11px;
+    }
+
+    .book-text {
+        font-size: 26px;
+    }
+
+    .bg-visit {
+        padding: 26px 22px;
+    }
+
+    .mt-60 {
+        margin-top: 34px;
+    }
+
+    .text-input {
+        height: 55px;
+    }
+
+    .btn-confirm {
+        height: 55px;
+        font-size: 13px;
+        line-height: 44px;
+    }
+
+    .card-title {
+        font-size: 19px;
+    }
+
+    .team-text {
+        font-size: 32px;
+    }
+
+    .team-desc {
+        font-size: 20px;
+    }
+
+    .media-mt-14 {
+        margin-top: 14px;
+    }
+
+    .slick-padding {
+        padding: 40px 20px;
+    }
+
+    #contact {
+        padding: 40px 20px;
+    }
+
+    .contact-pera-text {
+        font-size: 16px;
+    }
+
+    .address-text {
+        font-size: 16px;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
+
+    .contact-heading {
+        font-size: 14px;
+    }
+
+    .contact-text-desc {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width:800px) {
+    .top-head-padding {
+        padding: 0 30px;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .navbar {
+        padding: 0.5rem .4rem;
+    }
+
+    #home {
+        padding: 50px 10px;
+    }
+
+    .main-heading {
+        font-size: 36px;
+    }
+
+    .sub-desc {
+        font-size: 24px;
+    }
+
+    .btn-contact {
+        width: 250px;
+        height: 70px;
+        line-height: 55px;
+    }
+
+    .home-heading {
+        font-size: 26px;
+    }
+
+    .home-desc {
+        font-size: 20px;
+    }
+
+    .media-obj-color {
+        width: 50px;
+        height: 50px;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 28px;
+        padding: 18px;
+    }
+
+    #about {
+        padding: 50px 30px;
+    }
+
+    .about-heading {
+        font-size: 35px;
+    }
+
+    .about-sub-text {
+        font-size: 22px;
+    }
+
+    .mt-53 {
+        margin-top: 15px;
+    }
+
+    .mt-28 {
+        margin-top: 20px;
+    }
+
+    .about-desc {
+        font-size: 20px;
+    }
+
+    .list-group-item:first-child {
+        padding: 28px 42px;
+    }
+
+    .list-group-item {
+        padding: 28px 42px;
+    }
+
+    #chosse {
+        padding: 40px 20px 0px 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .below-tag:after {
+        width: 20%;
+        left: 44%;
+    }
+
+    .ml-5 {
+        margin-left: 1rem !important;
+    }
+
+    .chosse-heading {
+        font-size: 22px;
+    }
+
+    .chosse-desc {
+        font-size: 18px;
+    }
+
+    .chosse-media-bg {
+        width: 60px;
+        height: 60px;
+        padding: 14px;
+    }
+
+    .mt-284 {
+        margin-top: 90px;
+    }
+
+    .media-width {
+        width: 100%;
+    }
+
+    .service-text {
+        font-size: 32px;
+    }
+
+    .service-desc {
+        font-size: 20px;
+    }
+
+    .service-heading {
+        font-size: 22px;
+    }
+
+    .service-heading-desc {
+        font-size: 17px;
+    }
+
+    .bg-gallery {
+        padding: 40px 0;
+    }
+
+    .gallery {
+        font-size: 27px;
+    }
+
+        .gallery::before,
+        .gallery::after {
+            border-top: 5px solid #e6b408;
+            width: 40px;
+        }
+
+    .book-text {
+        font-size: 26px;
+    }
+
+    .bg-visit {
+        padding: 26px 22px;
+    }
+
+    .mt-60 {
+        margin-top: 34px;
+    }
+
+    .text-input {
+        height: 55px;
+    }
+
+    .btn-confirm {
+        height: 55px;
+        font-size: 13px;
+        line-height: 44px;
+    }
+
+    .card-title {
+        font-size: 19px;
+    }
+
+    .team-text {
+        font-size: 32px;
+    }
+
+    .team-desc {
+        font-size: 20px;
+    }
+
+    .media-mt-14 {
+        margin-top: 14px;
+    }
+
+    .slick-padding {
+        padding: 40px 20px;
+    }
+
+    #contact {
+        padding: 40px 20px;
+    }
+
+    .contact-pera-text {
+        font-size: 16px;
+    }
+
+    .address-text {
+        font-size: 16px;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
+
+    .contact-heading {
+        font-size: 14px;
+    }
+
+    .contact-text-desc {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .media-display {
+        border-left: 2px solid #bfbfbf;
+        border-right: 2px solid #bfbfbf;
+        margin-left: 114px;
+        margin-right: 121px;
+        display: block;
+    }
+    /*.border-left-right-for-no {
+
+    }*/
+    .media-ml-menu {
+        margin-left: 77px !important;
+    }
+
+
+
+    .custom-width {
+        height: 300px;
+    }
+
+    .position-absolute {
+        position: inherit !important;
+    }
+
+    .position-relative {
+        position: inherit !important;
+    }
+
+    .top-head-padding {
+        padding: 0 30px;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .navbar {
+        padding: 0.5rem 2.4rem;
+    }
+
+    #home {
+        padding: 50px 10px;
+    }
+
+    .main-heading {
+        font-size: 36px;
+    }
+
+    .sub-desc {
+        font-size: 24px;
+    }
+
+    .btn-contact {
+        width: 250px;
+        height: 70px;
+        line-height: 55px;
+    }
+
+    .home-heading {
+        font-size: 26px;
+    }
+
+    .home-desc {
+        font-size: 20px;
+    }
+
+    .media-obj-color {
+        width: 50px;
+        height: 50px;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 28px;
+        padding: 18px;
+    }
+
+    #about {
+        padding: 50px 30px;
+    }
+
+    .about-heading {
+        font-size: 35px;
+    }
+
+    .about-sub-text {
+        font-size: 22px;
+    }
+
+    .mt-53 {
+        margin-top: 15px;
+    }
+
+    .mt-28 {
+        margin-top: 20px;
+    }
+
+    .about-desc {
+        font-size: 20px;
+    }
+
+    .list-group-item:first-child {
+        padding: 28px 42px;
+    }
+
+    .list-group-item {
+        padding: 28px 42px;
+    }
+
+    #chosse {
+        padding: 40px 20px 0px 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .below-tag:after {
+        width: 20%;
+        left: 44%;
+    }
+
+    .ml-5 {
+        margin-left: 1rem !important;
+    }
+
+    .chosse-heading {
+        font-size: 22px;
+    }
+
+    .chosse-desc {
+        font-size: 18px;
+    }
+
+    .chosse-media-bg {
+        width: 60px;
+        height: 60px;
+        padding: 14px;
+    }
+
+    .mt-284 {
+        margin-top: 90px;
+    }
+
+    .media-width {
+        width: 100%;
+    }
+
+    .service-text {
+        font-size: 32px;
+    }
+
+    .service-desc {
+        font-size: 20px;
+    }
+
+    .service-heading {
+        font-size: 22px;
+    }
+
+    .service-heading-desc {
+        font-size: 17px;
+    }
+
+    .bg-gallery {
+        padding: 40px 0;
+    }
+
+    .gallery {
+        font-size: 27px;
+    }
+
+        .gallery::before,
+        .gallery::after {
+            border-top: 5px solid #e6b408;
+            width: 40px;
+        }
+
+    .book-text {
+        font-size: 26px;
+    }
+
+    .bg-visit {
+        padding: 26px 22px;
+    }
+
+    .mt-60 {
+        margin-top: 34px;
+    }
+
+    .text-input {
+        height: 55px;
+    }
+
+    .btn-confirm {
+        height: 55px;
+        font-size: 13px;
+        line-height: 44px;
+    }
+
+    .card-title {
+        font-size: 19px;
+    }
+
+    .team-text {
+        font-size: 32px;
+    }
+
+    .team-desc {
+        font-size: 20px;
+    }
+
+    .media-mt-14 {
+        margin-top: 14px;
+    }
+
+    .slick-padding {
+        padding: 40px 20px;
+    }
+
+    #contact {
+        padding: 40px 20px;
+    }
+
+    .contact-pera-text {
+        font-size: 16px;
+    }
+
+    .address-text {
+        font-size: 16px;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
+
+    .contact-heading {
+        font-size: 14px;
+    }
+
+    .contact-text-desc {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 414px) {
+    .media-display {
+        border-left: 2px solid #bfbfbf;
+        border-right: 2px solid #bfbfbf;
+        margin-left: 51px;
+        margin-right: 58px;
+        display: block;
+    }
+
+    .media-ml-menu {
+        margin-left: 0 !important;
+    }
+
+    .media-ml-d {
+        margin-left: 66px;
+    }
+
+    .custom-width {
+        height: 300px;
+    }
+
+    .position-absolute {
+        position: inherit !important;
+    }
+
+    .position-relative {
+        position: inherit !important;
+    }
+
+    .top-head-padding {
+        padding: 0 30px;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+
+    #home {
+        padding: 50px 10px;
+    }
+
+    .main-heading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .sub-desc {
+        font-size: 23px;
+    }
+
+    .btn-contact {
+        width: 227px;
+        height: 62px;
+        line-height: 49px;
+    }
+
+    .home-heading {
+        font-size: 18px;
+    }
+
+    .home-desc {
+        font-size: 12px;
+    }
+
+    .media-obj-color {
+        width: 50px;
+        height: 50px;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 28px;
+        padding: 18px;
+    }
+
+    #about {
+        padding: 50px 30px;
+    }
+
+    .about-heading {
+        font-size: 22px;
+    }
+
+    .about-sub-text {
+        font-size: 18px;
+    }
+
+    .mt-53 {
+        margin-top: 15px;
+    }
+
+    .mt-28 {
+        margin-top: 20px;
+    }
+
+    .about-desc {
+        font-size: 16px;
+    }
+
+    .list-group-item:first-child {
+        padding: 30px 80px;
+    }
+
+    .list-group-item {
+        padding: 30px 80px;
+    }
+
+    #chosse {
+        padding: 40px 20px 0px 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .below-tag:after {
+        width: 20%;
+        left: 44%;
+    }
+
+    .ml-5 {
+        margin-left: 1rem !important;
+    }
+
+    .chosse-heading {
+        font-size: 22px;
+    }
+
+    .chosse-desc {
+        font-size: 18px;
+    }
+
+    .chosse-media-bg {
+        width: 60px;
+        height: 60px;
+        padding: 14px;
+    }
+
+    .mt-284 {
+        margin-top: 0;
+    }
+
+    .media-width {
+        width: 100%;
+    }
+
+    .service-text {
+        font-size: 32px;
+    }
+
+    .service-desc {
+        font-size: 20px;
+    }
+
+    .service-heading {
+        font-size: 22px;
+    }
+
+    .service-heading-desc {
+        font-size: 17px;
+    }
+
+    .bg-gallery {
+        padding: 40px 0;
+    }
+
+    .gallery {
+        font-size: 27px;
+    }
+
+        .gallery::before,
+        .gallery::after {
+            border-top: 5px solid #e6b408;
+            width: 40px;
+        }
+
+    .book-text {
+        font-size: 26px;
+    }
+
+    .bg-visit {
+        padding: 26px 22px;
+    }
+
+    .mt-60 {
+        margin-top: 34px;
+    }
+
+    .text-input {
+        height: 55px;
+    }
+
+    .btn-confirm {
+        height: 55px;
+        font-size: 17px;
+        line-height: 44px;
+    }
+
+    .team-text {
+        font-size: 32px;
+    }
+
+    .team-desc {
+        font-size: 20px;
+    }
+
+    .media-mt-14 {
+        margin-top: 14px;
+    }
+
+    .slick-padding {
+        padding: 40px 20px;
+    }
+
+    #contact {
+        padding: 40px 20px;
+    }
+
+    .contact-pera-text {
+        font-size: 21px;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
+
+    .contact-heading {
+        font-size: 18px;
+    }
+
+    .contact-text-desc {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 411px) {
+    .media-display {
+        border-left: 2px solid #bfbfbf;
+        border-right: 2px solid #bfbfbf;
+        margin-left: 49px;
+        margin-right: 56px;
+        display: block;
+    }
+
+    .media-ml-menu {
+        margin-left: 0 !important;
+    }
+
+    .media-ml-d {
+        margin-left: 66px;
+    }
+
+    .custom-width {
+        height: 300px;
+    }
+
+    .position-absolute {
+        position: inherit !important;
+    }
+
+    .position-relative {
+        position: inherit !important;
+    }
+
+    .top-head-padding {
+        padding: 0 30px;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+
+    #home {
+        padding: 50px 10px;
+    }
+
+    .main-heading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .sub-desc {
+        font-size: 23px;
+    }
+
+    .btn-contact {
+        width: 227px;
+        height: 62px;
+        line-height: 49px;
+    }
+
+    .home-heading {
+        font-size: 18px;
+    }
+
+    .home-desc {
+        font-size: 12px;
+    }
+
+    .media-obj-color {
+        width: 50px;
+        height: 50px;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 28px;
+        padding: 18px;
+    }
+
+    #about {
+        padding: 50px 30px;
+    }
+
+    .about-heading {
+        font-size: 22px;
+    }
+
+    .about-sub-text {
+        font-size: 18px;
+    }
+
+    .mt-53 {
+        margin-top: 15px;
+    }
+
+    .mt-28 {
+        margin-top: 20px;
+    }
+
+    .about-desc {
+        font-size: 16px;
+    }
+
+    .list-group-item:first-child {
+        padding: 30px 79px;
+    }
+
+    .list-group-item {
+        padding: 30px 79px;
+    }
+
+    #chosse {
+        padding: 40px 20px 0px 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .below-tag:after {
+        width: 20%;
+        left: 44%;
+    }
+
+    .ml-5 {
+        margin-left: 1rem !important;
+    }
+
+    .chosse-heading {
+        font-size: 22px;
+    }
+
+    .chosse-desc {
+        font-size: 18px;
+    }
+
+    .chosse-media-bg {
+        width: 60px;
+        height: 60px;
+        padding: 14px;
+    }
+
+    .mt-284 {
+        margin-top: 0;
+    }
+
+    .media-width {
+        width: 100%;
+    }
+
+    .service-text {
+        font-size: 32px;
+    }
+
+    .service-desc {
+        font-size: 20px;
+    }
+
+    .service-heading {
+        font-size: 22px;
+    }
+
+    .service-heading-desc {
+        font-size: 17px;
+    }
+
+    .bg-gallery {
+        padding: 40px 0;
+    }
+
+    .gallery {
+        font-size: 27px;
+    }
+
+        .gallery::before,
+        .gallery::after {
+            border-top: 5px solid #e6b408;
+            width: 40px;
+        }
+
+    .book-text {
+        font-size: 26px;
+    }
+
+    .bg-visit {
+        padding: 26px 22px;
+    }
+
+    .mt-60 {
+        margin-top: 34px;
+    }
+
+    .text-input {
+        height: 55px;
+    }
+
+    .btn-confirm {
+        height: 55px;
+        font-size: 17px;
+        line-height: 44px;
+    }
+
+    .team-text {
+        font-size: 32px;
+    }
+
+    .team-desc {
+        font-size: 20px;
+    }
+
+    .media-mt-14 {
+        margin-top: 14px;
+    }
+
+    .slick-padding {
+        padding: 40px 20px;
+    }
+
+    #contact {
+        padding: 40px 20px;
+    }
+
+    .contact-pera-text {
+        font-size: 21px;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
+
+    .contact-heading {
+        font-size: 18px;
+    }
+
+    .contact-text-desc {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 375px) {
+    .media-display {
+        border-left: 2px solid #bfbfbf;
+        border-right: 2px solid #bfbfbf;
+        margin-left: 31px;
+        margin-right: 38px;
+        display: block;
+    }
+
+    .media-ml-menu {
+        margin-left: 0 !important;
+    }
+
+    .media-ml-d {
+        margin-left: 66px;
+    }
+
+    .custom-width {
+        height: 300px;
+    }
+
+    .position-absolute {
+        position: inherit !important;
+    }
+
+    .position-relative {
+        position: inherit !important;
+    }
+
+    .top-head-padding {
+        padding: 0 30px;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+
+    #home {
+        padding: 50px 10px;
+    }
+
+    .main-heading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .sub-desc {
+        font-size: 23px;
+    }
+
+    .btn-contact {
+        width: 227px;
+        height: 62px;
+        line-height: 49px;
+    }
+
+    .home-heading {
+        font-size: 18px;
+    }
+
+    .home-desc {
+        font-size: 12px;
+    }
+
+    .media-obj-color {
+        width: 50px;
+        height: 50px;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 28px;
+        padding: 18px;
+    }
+
+    #about {
+        padding: 50px 30px;
+    }
+
+    .about-heading {
+        font-size: 22px;
+    }
+
+    .about-sub-text {
+        font-size: 18px;
+    }
+
+    .mt-53 {
+        margin-top: 15px;
+    }
+
+    .mt-28 {
+        margin-top: 20px;
+    }
+
+    .about-desc {
+        font-size: 16px;
+    }
+
+    .list-group-item:first-child {
+        padding: 30px 52px;
+    }
+
+    .list-group-item {
+        padding: 30px 52px;
+    }
+
+    #chosse {
+        padding: 40px 20px 0px 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .below-tag:after {
+        width: 20%;
+        left: 44%;
+    }
+
+    .ml-5 {
+        margin-left: 1rem !important;
+    }
+
+    .chosse-heading {
+        font-size: 18px;
+    }
+
+    .chosse-desc {
+        font-size: 16px;
+    }
+
+    .chosse-media-bg {
+        width: 60px;
+        height: 60px;
+        padding: 14px;
+    }
+
+    .mt-284 {
+        margin-top: 0;
+    }
+
+    .media-width {
+        width: 100%;
+    }
+
+    .service-text {
+        font-size: 28px;
+    }
+
+    .service-desc {
+        font-size: 18px;
+    }
+
+    .service-heading {
+        font-size: 20px;
+    }
+
+    .service-heading-desc {
+        font-size: 16px;
+    }
+
+    .bg-gallery {
+        padding: 40px 0;
+    }
+
+    .gallery {
+        font-size: 20px;
+    }
+
+        .gallery::before,
+        .gallery::after {
+            border-top: 4px solid #e6b408;
+            width: 40px;
+        }
+
+    .book-text {
+        font-size: 26px;
+    }
+
+    .bg-visit {
+        padding: 26px 22px;
+    }
+
+    .mt-60 {
+        margin-top: 34px;
+    }
+
+    .text-input {
+        height: 55px;
+    }
+
+    .btn-confirm {
+        height: 55px;
+        font-size: 17px;
+        line-height: 44px;
+    }
+
+    .team-text {
+        font-size: 28px;
+    }
+
+    .team-desc {
+        font-size: 18px;
+    }
+
+    .media-mt-14 {
+        margin-top: 14px;
+    }
+
+    .slick-padding {
+        padding: 40px 20px;
+    }
+
+    #contact {
+        padding: 40px 20px;
+    }
+
+    .contact-pera-text {
+        font-size: 18px;
+    }
+
+    .footer-font {
+        font-size: 16px;
+    }
+
+    .contact-heading {
+        font-size: 16px;
+    }
+
+    .contact-text-desc {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 360px) {
+    .media-display {
+        border-left: 2px solid #bfbfbf;
+        border-right: 2px solid #bfbfbf;
+        margin-left: 31px;
+        margin-right: 37px;
+        display: block;
+    }
+
+    .media-ml-menu {
+        margin-left: 0 !important;
+    }
+
+    .media-ml-d {
+        margin-left: 66px;
+    }
+
+    .custom-width {
+        height: 300px;
+    }
+
+    .position-absolute {
+        position: inherit !important;
+    }
+
+    .position-relative {
+        position: inherit !important;
+    }
+
+    .top-head-padding {
+        padding: 0 30px;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+
+    #home {
+        padding: 50px 10px;
+    }
+
+    .main-heading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .sub-desc {
+        font-size: 23px;
+    }
+
+    .btn-contact {
+        width: 227px;
+        height: 62px;
+        line-height: 49px;
+    }
+
+    .home-heading {
+        font-size: 18px;
+    }
+
+    .home-desc {
+        font-size: 12px;
+    }
+
+    .media-obj-color {
+        width: 50px;
+        height: 50px;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 28px;
+        padding: 18px;
+    }
+
+    #about {
+        padding: 50px 30px;
+    }
+
+    .about-heading {
+        font-size: 22px;
+    }
+
+    .about-sub-text {
+        font-size: 18px;
+    }
+
+    .mt-53 {
+        margin-top: 15px;
+    }
+
+    .mt-28 {
+        margin-top: 20px;
+    }
+
+    .about-desc {
+        font-size: 16px;
+    }
+
+    .list-group-item:first-child {
+        padding: 30px 52px;
+    }
+
+    .list-group-item {
+        padding: 30px 52px;
+    }
+
+    #chosse {
+        padding: 40px 20px 0px 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .below-tag:after {
+        width: 20%;
+        left: 44%;
+    }
+
+    .ml-5 {
+        margin-left: 1rem !important;
+    }
+
+    .chosse-heading {
+        font-size: 18px;
+    }
+
+    .chosse-desc {
+        font-size: 16px;
+    }
+
+    .chosse-media-bg {
+        width: 60px;
+        height: 60px;
+        padding: 14px;
+    }
+
+    .mt-284 {
+        margin-top: 0;
+    }
+
+    .media-width {
+        width: 100%;
+    }
+
+    .service-text {
+        font-size: 28px;
+    }
+
+    .service-desc {
+        font-size: 18px;
+    }
+
+    .service-heading {
+        font-size: 20px;
+    }
+
+    .service-heading-desc {
+        font-size: 16px;
+    }
+
+    .bg-gallery {
+        padding: 40px 0;
+    }
+
+    .gallery {
+        font-size: 20px;
+    }
+
+        .gallery::before,
+        .gallery::after {
+            border-top: 4px solid #e6b408;
+            width: 40px;
+        }
+
+    .book-text {
+        font-size: 26px;
+    }
+
+    .bg-visit {
+        padding: 26px 22px;
+    }
+
+    .mt-60 {
+        margin-top: 34px;
+    }
+
+    .text-input {
+        height: 55px;
+    }
+
+    .btn-confirm {
+        height: 55px;
+        font-size: 17px;
+        line-height: 44px;
+    }
+
+    .team-text {
+        font-size: 28px;
+    }
+
+    .team-desc {
+        font-size: 18px;
+    }
+
+    .media-mt-14 {
+        margin-top: 14px;
+    }
+
+    .slick-padding {
+        padding: 40px 20px;
+    }
+
+    #contact {
+        padding: 40px 20px;
+    }
+
+    .contact-pera-text {
+        font-size: 18px;
+    }
+
+    .footer-font {
+        font-size: 16px;
+    }
+
+    .contact-heading {
+        font-size: 16px;
+    }
+
+    .contact-text-desc {
+        font-size: 14px;
+    }
 }
 
 /*==================== Media Query For Land Scape Mode =====================*/
@@ -956,19 +2793,1454 @@ button:focus {
 }
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
+    .navbar {
+        padding: .5rem 1.4rem;
+    }
+}
+
+@media screen and (max-width: 823px) and (orientation: landscape) {
+    .media-display {
+        border-left: 2px solid #bfbfbf;
+        border-right: 2px solid #bfbfbf;
+        margin-left: 114px;
+        margin-right: 121px;
+        display: block;
+    }
+
+    .media-ml-menu {
+        margin-left: 77px !important;
+    }
+
+    .custom-width {
+        height: 450px;
+    }
+
+    .position-absolute {
+        position: inherit !important;
+    }
+
+    .position-relative {
+        position: inherit !important;
+    }
+
+    .top-head-padding {
+        padding: 0 30px;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .navbar {
+        padding: 0.5rem 2.4rem;
+    }
+
+    #home {
+        padding: 50px 10px;
+    }
+
+    .main-heading {
+        font-size: 36px;
+    }
+
+    .sub-desc {
+        font-size: 24px;
+    }
+
+    .btn-contact {
+        width: 250px;
+        height: 70px;
+        line-height: 55px;
+    }
+
+    .home-heading {
+        font-size: 26px;
+    }
+
+    .home-desc {
+        font-size: 20px;
+    }
+
+    .media-obj-color {
+        width: 50px;
+        height: 50px;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 28px;
+        padding: 18px;
+    }
+
+    #about {
+        padding: 50px 30px;
+    }
+
+    .about-heading {
+        font-size: 35px;
+    }
+
+    .about-sub-text {
+        font-size: 22px;
+    }
+
+    .mt-53 {
+        margin-top: 15px;
+    }
+
+    .mt-28 {
+        margin-top: 20px;
+    }
+
+    .about-desc {
+        font-size: 20px;
+    }
+
+    .list-group-item:first-child {
+        padding: 28px 42px;
+    }
+
+    .list-group-item {
+        padding: 28px 42px;
+    }
+
+    #chosse {
+        padding: 40px 20px 0px 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .below-tag:after {
+        width: 9%;
+        left: 44%;
+    }
+
+    .ml-5 {
+        margin-left: 1rem !important;
+    }
+
+    .chosse-heading {
+        font-size: 22px;
+    }
+
+    .chosse-desc {
+        font-size: 18px;
+    }
+
+    .chosse-media-bg {
+        width: 60px;
+        height: 60px;
+        padding: 14px;
+    }
+
+    .mt-284 {
+        margin-top: 66px;
+    }
+
+    .media-width {
+        width: 100%;
+    }
+
+    .service-text {
+        font-size: 32px;
+    }
+
+    .service-desc {
+        font-size: 20px;
+    }
+
+    .service-heading {
+        font-size: 22px;
+    }
+
+    .service-heading-desc {
+        font-size: 17px;
+    }
+
+    .bg-gallery {
+        padding: 40px 0;
+    }
+
+    .gallery {
+        font-size: 27px;
+    }
+
+        .gallery::before,
+        .gallery::after {
+            border-top: 5px solid #e6b408;
+            width: 40px;
+        }
+
+    .book-text {
+        font-size: 26px;
+    }
+
+    .bg-visit {
+        padding: 26px 22px;
+    }
+
+    .mt-60 {
+        margin-top: 34px;
+    }
+
+    .text-input {
+        height: 55px;
+    }
+
+    .btn-confirm {
+        height: 55px;
+        font-size: 13px;
+        line-height: 44px;
+    }
+
+    .card-title {
+        font-size: 19px;
+    }
+
+    .team-text {
+        font-size: 32px;
+    }
+
+    .team-desc {
+        font-size: 20px;
+    }
+
+    .media-mt-14 {
+        margin-top: 14px;
+    }
+
+    .slick-padding {
+        padding: 40px 20px;
+    }
+
+    #contact {
+        padding: 40px 20px;
+    }
+
+    .contact-pera-text {
+        font-size: 16px;
+    }
+
+    .address-text {
+        font-size: 16px;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
+
+    .contact-heading {
+        font-size: 14px;
+    }
+
+    .contact-text-desc {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 740px) and (orientation: landscape) {
+    .media-display {
+        border-left: 2px solid #bfbfbf;
+        border-right: 2px solid #bfbfbf;
+        margin-left: 114px;
+        margin-right: 121px;
+        display: block;
+    }
+
+    .media-ml-menu {
+        margin-left: 0 !important;
+    }
+
+    .custom-width {
+        height: 550px;
+    }
+
+    .position-absolute {
+        position: inherit !important;
+    }
+
+    .position-relative {
+        position: inherit !important;
+    }
+
+    .top-head-padding {
+        padding: 0 30px;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .navbar {
+        padding: 0.5rem 2.4rem;
+    }
+
+    #home {
+        padding: 50px 10px;
+    }
+
+    .main-heading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .sub-desc {
+        font-size: 23px;
+    }
+
+    .btn-contact {
+        width: 227px;
+        height: 62px;
+        line-height: 49px;
+    }
+
+    .home-heading {
+        font-size: 18px;
+    }
+
+    .home-desc {
+        font-size: 12px;
+    }
+
+    .media-obj-color {
+        width: 50px;
+        height: 50px;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 28px;
+        padding: 18px;
+    }
+
+    #about {
+        padding: 50px 30px;
+    }
+
+    .about-heading {
+        font-size: 22px;
+    }
+
+    .about-sub-text {
+        font-size: 18px;
+    }
+
+    .mt-53 {
+        margin-top: 15px;
+    }
+
+    .mt-28 {
+        margin-top: 20px;
+    }
+
+    .about-desc {
+        font-size: 16px;
+    }
+
+    .list-group-item:first-child {
+        padding: 30px 30px;
+    }
+
+    .list-group-item {
+        padding: 30px 30px;
+    }
+
+    #chosse {
+        padding: 40px 20px 0px 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .below-tag:after {
+        width: 20%;
+        left: 44%;
+    }
+
+    .ml-5 {
+        margin-left: 1rem !important;
+    }
+
+    .chosse-heading {
+        font-size: 22px;
+    }
+
+    .chosse-desc {
+        font-size: 18px;
+    }
+
+    .chosse-media-bg {
+        width: 60px;
+        height: 60px;
+        padding: 14px;
+    }
+
+    .mt-284 {
+        margin-top: 0;
+    }
+
+    .media-width {
+        width: 100%;
+    }
+
+    .service-text {
+        font-size: 32px;
+    }
+
+    .service-desc {
+        font-size: 20px;
+    }
+
+    .service-heading {
+        font-size: 22px;
+    }
+
+    .service-heading-desc {
+        font-size: 17px;
+    }
+
+    .bg-gallery {
+        padding: 40px 0;
+    }
+
+    .gallery {
+        font-size: 27px;
+    }
+
+        .gallery::before,
+        .gallery::after {
+            border-top: 5px solid #e6b408;
+            width: 40px;
+        }
+
+    .book-text {
+        font-size: 26px;
+    }
+
+    .bg-visit {
+        padding: 26px 22px;
+    }
+
+    .mt-60 {
+        margin-top: 34px;
+    }
+
+    .text-input {
+        height: 55px;
+    }
+
+    .btn-confirm {
+        height: 55px;
+        font-size: 17px;
+        line-height: 44px;
+    }
+
+    .team-text {
+        font-size: 32px;
+    }
+
+    .team-desc {
+        font-size: 20px;
+    }
+
+    .media-mt-14 {
+        margin-top: 14px;
+    }
+
+    .slick-padding {
+        padding: 40px 20px;
+    }
+
+    #contact {
+        padding: 40px 20px;
+    }
+
+    .contact-pera-text {
+        font-size: 21px;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
+
+    .contact-heading {
+        font-size: 18px;
+    }
+
+    .contact-text-desc {
+        font-size: 16px;
+    }
+
+    .card-title {
+        font-size: 15px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 736px) and (orientation: landscape) {
+    .media-display {
+        border-left: 2px solid #bfbfbf;
+        border-right: 2px solid #bfbfbf;
+        margin-left: 114px;
+        margin-right: 121px;
+        display: block;
+    }
+
+    .media-ml-menu {
+        margin-left: 0 !important;
+    }
+
+    .custom-width {
+        height: 550px;
+    }
+
+    .position-absolute {
+        position: inherit !important;
+    }
+
+    .position-relative {
+        position: inherit !important;
+    }
+
+    .top-head-padding {
+        padding: 0 30px;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .navbar {
+        padding: 0.5rem 2.4rem;
+    }
+
+    #home {
+        padding: 50px 10px;
+    }
+
+    .main-heading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .sub-desc {
+        font-size: 23px;
+    }
+
+    .btn-contact {
+        width: 227px;
+        height: 62px;
+        line-height: 49px;
+    }
+
+    .home-heading {
+        font-size: 18px;
+    }
+
+    .home-desc {
+        font-size: 12px;
+    }
+
+    .media-obj-color {
+        width: 50px;
+        height: 50px;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 28px;
+        padding: 18px;
+    }
+
+    #about {
+        padding: 50px 30px;
+    }
+
+    .about-heading {
+        font-size: 22px;
+    }
+
+    .about-sub-text {
+        font-size: 18px;
+    }
+
+    .mt-53 {
+        margin-top: 15px;
+    }
+
+    .mt-28 {
+        margin-top: 20px;
+    }
+
+    .about-desc {
+        font-size: 16px;
+    }
+
+    .list-group-item:first-child {
+        padding: 30px 30px;
+    }
+
+    .list-group-item {
+        padding: 30px 30px;
+    }
+
+    #chosse {
+        padding: 40px 20px 0px 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .below-tag:after {
+        width: 20%;
+        left: 44%;
+    }
+
+    .ml-5 {
+        margin-left: 1rem !important;
+    }
+
+    .chosse-heading {
+        font-size: 22px;
+    }
+
+    .chosse-desc {
+        font-size: 18px;
+    }
+
+    .chosse-media-bg {
+        width: 60px;
+        height: 60px;
+        padding: 14px;
+    }
+
+    .mt-284 {
+        margin-top: 0;
+    }
+
+    .media-width {
+        width: 100%;
+    }
+
+    .service-text {
+        font-size: 32px;
+    }
+
+    .service-desc {
+        font-size: 20px;
+    }
+
+    .service-heading {
+        font-size: 22px;
+    }
+
+    .service-heading-desc {
+        font-size: 17px;
+    }
+
+    .bg-gallery {
+        padding: 40px 0;
+    }
+
+    .gallery {
+        font-size: 27px;
+    }
+
+        .gallery::before,
+        .gallery::after {
+            border-top: 5px solid #e6b408;
+            width: 40px;
+        }
+
+    .book-text {
+        font-size: 26px;
+    }
+
+    .bg-visit {
+        padding: 26px 22px;
+    }
+
+    .mt-60 {
+        margin-top: 34px;
+    }
+
+    .text-input {
+        height: 55px;
+    }
+
+    .btn-confirm {
+        height: 55px;
+        font-size: 17px;
+        line-height: 44px;
+    }
+
+    .team-text {
+        font-size: 32px;
+    }
+
+    .team-desc {
+        font-size: 20px;
+    }
+
+    .media-mt-14 {
+        margin-top: 14px;
+    }
+
+    .slick-padding {
+        padding: 40px 20px;
+    }
+
+    #contact {
+        padding: 40px 20px;
+    }
+
+    .contact-pera-text {
+        font-size: 21px;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
+
+    .contact-heading {
+        font-size: 18px;
+    }
+
+    .contact-text-desc {
+        font-size: 16px;
+    }
+
+    .card-title {
+        font-size: 15px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 731px) and (orientation: landscape) {
+    .media-display {
+        border-left: 2px solid #bfbfbf;
+        border-right: 2px solid #bfbfbf;
+        margin-left: 114px;
+        margin-right: 121px;
+        display: block;
+    }
+
+    .media-ml-d {
+        margin-left: 154px;
+    }
+
+    .custom-width {
+        height: 550px;
+    }
+
+    .position-absolute {
+        position: inherit !important;
+    }
+
+    .position-relative {
+        position: inherit !important;
+    }
+
+    .top-head-padding {
+        padding: 0 30px;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .navbar {
+        transition: all 0.5s ease-in-out;
+        padding: 0.5rem 2.4rem;
+    }
+
+    #home {
+        padding: 50px 10px;
+    }
+
+    .main-heading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .sub-desc {
+        font-size: 23px;
+    }
+
+    .btn-contact {
+        width: 227px;
+        height: 62px;
+        line-height: 49px;
+    }
+
+    .home-heading {
+        font-size: 18px;
+    }
+
+    .home-desc {
+        font-size: 12px;
+    }
+
+    .media-obj-color {
+        width: 50px;
+        height: 50px;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 28px;
+        padding: 18px;
+    }
+
+    #about {
+        padding: 50px 30px;
+    }
+
+    .about-heading {
+        font-size: 22px;
+    }
+
+    .about-sub-text {
+        font-size: 18px;
+    }
+
+    .mt-53 {
+        margin-top: 15px;
+    }
+
+    .mt-28 {
+        margin-top: 20px;
+    }
+
+    .about-desc {
+        font-size: 16px;
+    }
+
+    .list-group-item:first-child {
+        padding: 30px 30px;
+    }
+
+    .list-group-item {
+        padding: 30px 30px;
+    }
+
+    #chosse {
+        padding: 40px 20px 0px 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .below-tag:after {
+        width: 20%;
+        left: 44%;
+    }
+
+    .ml-5 {
+        margin-left: 1rem !important;
+    }
+
+    .chosse-heading {
+        font-size: 22px;
+    }
+
+    .chosse-desc {
+        font-size: 18px;
+    }
+
+    .chosse-media-bg {
+        width: 60px;
+        height: 60px;
+        padding: 14px;
+    }
+
+    .mt-284 {
+        margin-top: 0;
+    }
+
+    .media-width {
+        width: 100%;
+    }
+
+    .service-text {
+        font-size: 32px;
+    }
+
+    .service-desc {
+        font-size: 20px;
+    }
+
+    .service-heading {
+        font-size: 22px;
+    }
+
+    .service-heading-desc {
+        font-size: 17px;
+    }
+
+    .bg-gallery {
+        padding: 40px 0;
+    }
+
+    .gallery {
+        font-size: 27px;
+    }
+
+        .gallery::before,
+        .gallery::after {
+            border-top: 5px solid #e6b408;
+            width: 40px;
+        }
+
+    .book-text {
+        font-size: 26px;
+    }
+
+    .bg-visit {
+        padding: 26px 22px;
+    }
+
+    .mt-60 {
+        margin-top: 34px;
+    }
+
+    .text-input {
+        height: 55px;
+    }
+
+    .btn-confirm {
+        height: 55px;
+        font-size: 17px;
+        line-height: 44px;
+    }
+
+    .team-text {
+        font-size: 32px;
+    }
+
+    .team-desc {
+        font-size: 20px;
+    }
+
+    .media-mt-14 {
+        margin-top: 14px;
+    }
+
+    .slick-padding {
+        padding: 40px 20px;
+    }
+
+    #contact {
+        padding: 40px 20px;
+    }
+
+    .contact-pera-text {
+        font-size: 21px;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
+
+    .contact-heading {
+        font-size: 18px;
+    }
+
+    .contact-text-desc {
+        font-size: 16px;
+    }
+
+    .card-title {
+        font-size: 15px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 667px) and (orientation: landscape) {
+    .media-display {
+        border-left: 2px solid #bfbfbf;
+        border-right: 2px solid #bfbfbf;
+        margin-left: 113px;
+        margin-right: 121px;
+        display: block;
+    }
+
+    .media-ml-menu {
+        margin-left: 0 !important;
+    }
+
+    .custom-width {
+        height: 550px;
+    }
+
+    .position-absolute {
+        position: inherit !important;
+    }
+
+    .position-relative {
+        position: inherit !important;
+    }
+
+    .top-head-padding {
+        padding: 0 30px;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .navbar {
+        padding: 0.5rem 2.4rem;
+    }
+
+    #home {
+        padding: 50px 10px;
+    }
+
+    .main-heading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .sub-desc {
+        font-size: 23px;
+    }
+
+    .btn-contact {
+        width: 227px;
+        height: 62px;
+        line-height: 49px;
+    }
+
+    .home-heading {
+        font-size: 18px;
+    }
+
+    .home-desc {
+        font-size: 12px;
+    }
+
+    .media-obj-color {
+        width: 50px;
+        height: 50px;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 28px;
+        padding: 18px;
+    }
+
+    #about {
+        padding: 50px 30px;
+    }
+
+    .about-heading {
+        font-size: 22px;
+    }
+
+    .about-sub-text {
+        font-size: 18px;
+    }
+
+    .mt-53 {
+        margin-top: 15px;
+    }
+
+    .mt-28 {
+        margin-top: 20px;
+    }
+
+    .about-desc {
+        font-size: 16px;
+    }
+
+    .list-group-item:first-child {
+        padding: 30px 30px;
+    }
+
+    .list-group-item {
+        padding: 30px 30px;
+    }
+
+    #chosse {
+        padding: 40px 20px 0px 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .below-tag:after {
+        width: 20%;
+        left: 44%;
+    }
+
+    .ml-5 {
+        margin-left: 1rem !important;
+    }
+
+    .chosse-heading {
+        font-size: 22px;
+    }
+
+    .chosse-desc {
+        font-size: 18px;
+    }
+
+    .chosse-media-bg {
+        width: 60px;
+        height: 60px;
+        padding: 14px;
+    }
+
+    .mt-284 {
+        margin-top: 0;
+    }
+
+    .media-width {
+        width: 100%;
+    }
+
+    .service-text {
+        font-size: 32px;
+    }
+
+    .service-desc {
+        font-size: 20px;
+    }
+
+    .service-heading {
+        font-size: 22px;
+    }
+
+    .service-heading-desc {
+        font-size: 17px;
+    }
+
+    .bg-gallery {
+        padding: 40px 0;
+    }
+
+    .gallery {
+        font-size: 27px;
+    }
+
+        .gallery::before,
+        .gallery::after {
+            border-top: 5px solid #e6b408;
+            width: 40px;
+        }
+
+    .book-text {
+        font-size: 26px;
+    }
+
+    .bg-visit {
+        padding: 26px 22px;
+    }
+
+    .mt-60 {
+        margin-top: 34px;
+    }
+
+    .text-input {
+        height: 55px;
+    }
+
+    .btn-confirm {
+        height: 55px;
+        font-size: 17px;
+        line-height: 44px;
+    }
+
+    .team-text {
+        font-size: 32px;
+    }
+
+    .team-desc {
+        font-size: 20px;
+    }
+
+    .media-mt-14 {
+        margin-top: 14px;
+    }
+
+    .slick-padding {
+        padding: 40px 20px;
+    }
+
+    #contact {
+        padding: 40px 20px;
+    }
+
+    .contact-pera-text {
+        font-size: 21px;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
+
+    .contact-heading {
+        font-size: 18px;
+    }
+
+    .contact-text-desc {
+        font-size: 16px;
+    }
+
+    .card-title {
+        font-size: 15px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 640px) and (orientation: landscape) {
+    .media-display {
+        border-left: 2px solid #bfbfbf;
+        border-right: 2px solid #bfbfbf;
+        margin-left: 114px;
+        margin-right: 121px;
+        display: block;
+    }
+
+
+    .media-ml-d {
+        margin-left: 154px;
+    }
+
+    .custom-width {
+        height: 550px;
+    }
+
+    .position-absolute {
+        position: inherit !important;
+    }
+
+    .position-relative {
+        position: inherit !important;
+    }
+
+    .top-head-padding {
+        padding: 0 30px;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .navbar {
+        padding: 0.5rem 2.4rem;
+    }
+
+    #home {
+        padding: 50px 10px;
+    }
+
+    .main-heading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .sub-desc {
+        font-size: 23px;
+    }
+
+    .btn-contact {
+        width: 227px;
+        height: 62px;
+        line-height: 49px;
+    }
+
+    .home-heading {
+        font-size: 18px;
+    }
+
+    .home-desc {
+        font-size: 12px;
+    }
+
+    .media-obj-color {
+        width: 50px;
+        height: 50px;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 28px;
+        padding: 18px;
+    }
+
+    #about {
+        padding: 50px 30px;
+    }
+
+    .about-heading {
+        font-size: 22px;
+    }
+
+    .about-sub-text {
+        font-size: 18px;
+    }
+
+    .mt-53 {
+        margin-top: 15px;
+    }
+
+    .mt-28 {
+        margin-top: 20px;
+    }
+
+    .about-desc {
+        font-size: 16px;
+    }
+
+    .list-group-item:first-child {
+        padding: 30px 30px;
+    }
+
+    .list-group-item {
+        padding: 30px 30px;
+    }
+
+    #chosse {
+        padding: 40px 20px 0px 20px;
+    }
+
+    .chosse-text {
+        font-size: 26px;
+    }
+
+    .below-tag:after {
+        width: 20%;
+        left: 44%;
+    }
+
+    .ml-5 {
+        margin-left: 1rem !important;
+    }
+
+    .chosse-heading {
+        font-size: 22px;
+    }
+
+    .chosse-desc {
+        font-size: 18px;
+    }
+
+    .chosse-media-bg {
+        width: 60px;
+        height: 60px;
+        padding: 14px;
+    }
+
+    .mt-284 {
+        margin-top: 0;
+    }
+
+    .media-width {
+        width: 100%;
+    }
+
+    .service-text {
+        font-size: 32px;
+    }
+
+    .service-desc {
+        font-size: 20px;
+    }
+
+    .service-heading {
+        font-size: 22px;
+    }
+
+    .service-heading-desc {
+        font-size: 17px;
+    }
+
+    .bg-gallery {
+        padding: 40px 0;
+    }
+
+    .gallery {
+        font-size: 27px;
+    }
+
+        .gallery::before,
+        .gallery::after {
+            border-top: 5px solid #e6b408;
+            width: 40px;
+        }
+
+    .book-text {
+        font-size: 26px;
+    }
+
+    .bg-visit {
+        padding: 26px 22px;
+    }
+
+    .mt-60 {
+        margin-top: 34px;
+    }
+
+    .text-input {
+        height: 55px;
+    }
+
+    .btn-confirm {
+        height: 55px;
+        font-size: 17px;
+        line-height: 44px;
+    }
+
+    .team-text {
+        font-size: 32px;
+    }
+
+    .team-desc {
+        font-size: 20px;
+    }
+
+    .media-mt-14 {
+        margin-top: 14px;
+    }
+
+    .slick-padding {
+        padding: 40px 20px;
+    }
+
+    #contact {
+        padding: 40px 20px;
+    }
+
+    .contact-pera-text {
+        font-size: 21px;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
+
+    .contact-heading {
+        font-size: 18px;
+    }
+
+    .contact-text-desc {
+        font-size: 16px;
+    }
+
+    .card-title {
+        font-size: 15px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
 }
