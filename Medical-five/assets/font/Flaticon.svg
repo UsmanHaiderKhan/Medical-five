@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2019-2-8: Created with FontForge (http://fontforge.org)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20170731 at Fri Feb  8 06:22:16 2019
+ By root
+
+</metadata>
+<defs>
+<font id="Flaticon" horiz-adv-x="200" >
+  <font-face 
+    font-family="Flaticon"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="512"
+    panose-1="2 0 5 3 0 0 0 0 0 0"
+    ascent="448"
+    descent="-64"
+    bbox="0 0.000976562 512 384"
+    underline-thickness="25.6"
+    underline-position="-51.2"
+    unicode-range="U+0020-F100"
+  />
+    <missing-glyph />
+    <glyph glyph-name="space" unicode=" " 
+ />
+    <glyph glyph-name="001-mail-black-envelope-symbol" unicode="&#xf100;" horiz-adv-x="512" 
+d="M512 64.002c0 -11.2236 -3.15723 -21.6289 -8.21484 -30.7842l-161.659 180.874l159.906 139.903c6.2207 -9.87109 9.96777 -21.4668 9.96777 -33.9971v-255.996zM256.001 181.25l-222.485 194.687c9.09375 4.99805 19.3789 8.06348 30.4844 8.06348h384.001
+c11.0918 0 21.374 -3.06543 30.5049 -8.06348zM318.033 193.028l163.717 -183.184c-9.80859 -6.15625 -21.3135 -9.84375 -33.749 -9.84375h-384.002c-12.4375 0 -23.9365 3.6875 -33.749 9.84375l163.704 183.186l51.5156 -45.0957
+c3.0127 -2.62402 6.76367 -3.93457 10.5312 -3.93457c3.76465 0 7.51562 1.31055 10.5283 3.93457zM9.96973 353.996l159.89 -139.874l-161.641 -180.905c-5.07617 9.15527 -8.21875 19.5605 -8.21875 30.7842v255.997c0 12.5312 3.75 24.127 9.96973 33.998z" />
+  </font>
+</defs></svg>
