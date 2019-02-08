@@ -2,16 +2,16 @@
 
 /*================== Read More Text ==================*/
 $(function () {
-    var showChar = 110;
-    var moretext = "Know More";
-    var lesstext = "Know Less";
+    var showChar = 100;
+    var moretext = "...";
+    var lesstext = "...";
     $('.comments-space').each(function () {
         var content = $(this).html();
         if (content.length > showChar) {
             var show_content = content.substr(0, showChar);
             var hide_content = content.substr(showChar, content.length - showChar);
-            var html = show_content + '<span class="remaining-contents" style="display:block"><span>' + hide_content +
-                '</span><a href="" class="morelinks btn btn-know mt-45 text-center media-ml"  style="display:block;margin-left:26%;">' + moretext + "<span class='fas fa-arrow-right'></span>" + '</a>'
+            var html = show_content + '<span class="remaining-contents"><span>' + hide_content +
+                '</span><a href="" class="morelinks link-blue" >' + moretext + "<span class='fas fa-arrow-right'></span>" + '</a>'
                 + '</span>';
             $(this).html(html);
         }
@@ -31,9 +31,38 @@ $(function () {
         return false;
     });
 });
+$(function () {
+    var showChar = 100;
+    var moretext = "...";
+    var lesstext = "...";
+    $('.comments-spaces').each(function () {
+        var content = $(this).html();
+        if (content.length > showChar) {
+            var show_content = content.substr(0, showChar);
+            var hide_content = content.substr(showChar, content.length - showChar);
+            var html = show_content + '<span class="remaining-contents"><span>' + hide_content +
+                '</span><a href="" class="morelinkss link-blue" >' + moretext + "<span class='fas fa-arrow-right'></span>" + '</a>'
+                + '</span>';
+            $(this).html(html);
+        }
+    });
 
+    $(".morelinkss").click(function () {
 
-/*===================== Load More Images ======================*/
+        if ($(this).hasClass("less")) {
+            $(this).removeClass("less");
+            $(this).html(moretext);
+        } else {
+            $(this).addClass("less");
+            $(this).html(lesstext);
+        }
+        $(this).parent().prev().toggle();
+        $(this).prev().toggle();
+        return false;
+    });
+});
+
+/*===================== Smooth Scrolling ======================*/
 $(function () {
     $('a').smoothScroll();
 });
@@ -46,8 +75,6 @@ $(function () {
             $(this).addClass('active');
         });
 });
-
-
 
 /* ==================== Js Function to give the class on Scroll ================== */
 $(function () {
@@ -62,7 +89,6 @@ $(function () {
     });
 });
 
-
 /*===================== Load More Images ======================*/
 $(document).ready(function () {
 
@@ -75,45 +101,32 @@ $(document).ready(function () {
 });
 
 /*===================== Date Picker Function ======================*/
-
 $(function () {
-    $('.responsive').slick({
-        dots: false,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        responsive: [
-            {
-                breakpoint: 1100,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3
-                }
+    $("#datepicker").datepicker();
+});
+/*===================== Owl Carousel Slider ======================*/
+$(function () {
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        //autoplay: true,
+        margin: 15,
+        dots: true,
+        responsiveClass: true,
+        slideBy: '3',
+        responsive: {
+            0: {
+                items: 1,
+                nav: true
             },
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    infinite: true,
-                    dots: true
-                }
+            600: {
+                items: 3,
+                nav: true
             },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
+            1000: {
+                items: 3,
+                nav: true,
+                loop: true
             }
-        ]
+        }
     });
 });
