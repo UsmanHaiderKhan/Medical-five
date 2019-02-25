@@ -135,7 +135,6 @@ html, body {
        Home Section Styling
   =================================*/
 #home {
-    background-image: url('../../Images/main-banner.png');
     background-size: cover;
     position: relative;
     padding: 100px 80px 100px 80px;
@@ -285,7 +284,6 @@ html, body {
        Chosse Section Styling
   =================================*/
 #chosse {
-    background-image: url('../../Images/bg-banner.png');
     background-size: cover;
     position: relative;
     padding: 100px 140px 0px 140px;
