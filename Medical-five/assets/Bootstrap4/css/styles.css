@@ -12,7 +12,7 @@ html, body {
     scroll-behavior: smooth;
 }
 
-/*================================= 
+/*=================================
           Navbar Styling
   =================================*/
 
@@ -131,7 +131,7 @@ html, body {
 .margin-5 {
     margin: 5px;
 }
-/*================================= 
+/*=================================
        Home Section Styling
   =================================*/
 #home {
@@ -226,7 +226,7 @@ html, body {
 }
 
 
-/*================================= 
+/*=================================
        About Section Styling
   =================================*/
 #about {
@@ -280,7 +280,7 @@ html, body {
 .list-group-item {
     padding: 30px 20px;
 }
-/*================================= 
+/*=================================
        Chosse Section Styling
   =================================*/
 #chosse {
@@ -345,7 +345,7 @@ html, body {
 .mt-284 {
     margin-top: -284px;
 }
-/*================================= 
+/*=================================
       Services Section Styling
   =================================*/
 .service-text {
@@ -353,6 +353,11 @@ html, body {
     font-weight: bold;
     font-size: 48px;
     font-family: 'Lora', serif;
+}
+
+.img-style {
+    /*clip-path: polygon(21% 1%, 78% 0, 94% 82%, 50% 100%, 8% 81%);*/
+    clip-path: polygon(21% 0, 79% 0, 100% 81%, 50% 100%, 0 81%);
 }
 
 .service-desc {
@@ -473,7 +478,7 @@ html, body {
 
 /*background-color: rgba(0, 166, 81,0.65);*/
 
-/*================================= 
+/*=================================
       Visit Section Styling
   =================================*/
 .bg-visit {
@@ -587,7 +592,7 @@ html, body {
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #00a651;
 }
-/*================================= 
+/*=================================
       Contact Section Styling
   =================================*/
 #contact {
